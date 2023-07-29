@@ -1,0 +1,217 @@
+html, body {
+  height: 95%;
+  margin: 1%;
+  padding: 0;
+}
+
+html {
+  margin-top: 0;
+}
+
+body.light-theme {
+  color: black;
+  background-color: white;
+}
+
+body.dark-theme {
+  color: white;
+  background-color: #122f50;
+}
+
+html.light-theme {
+  color: black;
+  background-color: white;
+}
+
+html.dark-theme {
+  color: white;
+  background-color: #122f50;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; /* 左右の項目を端に配置 */
+  width: 90%; /* textareaと同じ幅に設定 */
+  margin: 0 auto; /* 中央揃えにする */
+}
+
+.app-title {
+  text-align: left;
+  margin-left: -6%;
+}
+
+.app-setting-btn {
+  text-align: right;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  margin-right: -2%;
+
+}
+
+.title_h1 {
+  margin-bottom: -1%;
+}
+
+.title_h1.light-theme {
+  color: black;
+}
+
+.title_h1.dark-theme {
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  margin-top: -1%;
+}
+
+.container.light-theme {
+  background-color: white;
+  color: black;
+}
+
+.container.dark-theme {
+  background-color: #122f50;
+  color: white;
+}
+
+.editor-area, .preview-area {
+  width: 47%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.editor-area {
+  margin-right: 4%;
+}
+
+#result {
+  overflow-y: scroll;
+  padding-right: 2%;
+  padding-left: 2%;
+  color: black;
+  background-color: white;
+}
+
+.title_h5 {
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
+.title_h5.light-theme {
+  background-color: #d1d3d4a4;
+  color: black;
+}
+
+.title_h5.dark-theme {
+  background-color: #eef1f534;
+  color: white;
+}
+
+h3#title_h3_1 {
+  position: relative;
+  padding-left: 25px;
+}
+
+h3#title_h3_1:before {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 15px transparent;
+  border-bottom: solid 15px rgb(119, 195, 223);
+}
+
+h3#title_h3_1:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 0px;
+  width: 100%;
+  border-bottom: solid 3px rgb(119, 195, 223);
+}
+
+h3#title_h3_2 {
+  position: relative;
+  padding-left: 25px;
+}
+
+h3#title_h3_2:before {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: solid 15px transparent;
+  border-bottom: solid 15px rgb(119, 195, 223);
+}
+
+h3#title_h3_2:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: 0px;
+  width: 100%;
+  border-bottom: solid 3px rgb(119, 195, 223);
+}
+
+body {
+  background-color: white;
+}
+
+.btn-app-settings {
+  color: #fff;
+  background-color: #70777c;
+  border-color: #949a9e;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.6rem;
+}
+
+.btn-function {
+  color: #fff;
+  background-color: #296bb6;
+  border-color: #296bb6;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.6rem;
+}
+
+.btn-text-copy {
+  color: black;
+  background-color: #e5ee94;
+  border-color: #e5ee94;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.6rem;
+}
+
+
+.footer {
+  font-size: 16px;
+}
+
+
+/* IME Fix */
+@font-face {
+  font-family: "ime_jp_rp";
+  src: url("./ime_jp_rp.woff") format("woff");
+}
+
+.ace_editor>.ace_text-input {
+  padding-top: 1px;
+  padding-left: 1px;
+  letter-spacing: 1px;
+  font-family: ime_jp_rp, Monaco, Menlo, "Ubuntu Mono", Consolas, source-code-pro, monospace;
+}

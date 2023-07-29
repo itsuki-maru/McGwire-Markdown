@@ -1,0 +1,2657 @@
+{
+  "7zip-bin@5.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/develar/7zip-bin",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/7zip-bin",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/7zip-bin/LICENSE.txt"
+  },
+  "@develar/schema-utils@2.6.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/webpack/schema-utils",
+    "publisher": "webpack Contrib",
+    "url": "https://github.com/webpack-contrib",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@develar/schema-utils",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@develar/schema-utils/LICENSE"
+  },
+  "@electron/asar@3.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/asar",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/asar",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/asar/LICENSE.md"
+  },
+  "@electron/get@2.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/get",
+    "publisher": "Samuel Attard",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/get",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/get/LICENSE"
+  },
+  "@electron/notarize@1.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/notarize",
+    "publisher": "Samuel Attard",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/notarize",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/notarize/LICENSE"
+  },
+  "@electron/osx-sign@1.0.4": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/electron/osx-sign",
+    "publisher": "electron",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/osx-sign",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/osx-sign/LICENSE"
+  },
+  "@electron/rebuild@3.2.13": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/rebuild",
+    "publisher": "Paul Betts",
+    "email": "paul@paulbetts.org",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/rebuild",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/rebuild/LICENSE"
+  },
+  "@electron/universal@1.3.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/universal",
+    "publisher": "Samuel Attard",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/universal",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/universal/README.md"
+  },
+  "@isaacs/cliui@8.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/cliui",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui/LICENSE.txt"
+  },
+  "@malept/cross-spawn-promise@1.1.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/malept/cross-spawn-promise",
+    "publisher": "Mark Lee",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/universal/node_modules/@malept/cross-spawn-promise",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/universal/node_modules/@malept/cross-spawn-promise/LICENSE"
+  },
+  "@malept/cross-spawn-promise@2.0.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/malept/cross-spawn-promise",
+    "publisher": "Mark Lee",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@malept/cross-spawn-promise",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@malept/cross-spawn-promise/LICENSE"
+  },
+  "@malept/flatpak-bundler@0.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/malept/flatpak-bundler",
+    "publisher": "Matt Watson",
+    "email": "mattdangerw@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@malept/flatpak-bundler",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@malept/flatpak-bundler/LICENSE"
+  },
+  "@npmcli/fs@3.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/fs",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@npmcli/fs",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@npmcli/fs/LICENSE.md"
+  },
+  "@pkgjs/parseargs@0.11.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/pkgjs/parseargs",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@pkgjs/parseargs",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@pkgjs/parseargs/LICENSE"
+  },
+  "@sindresorhus/is@4.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@sindresorhus/is",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@sindresorhus/is/license"
+  },
+  "@szmarczak/http-timer@4.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/szmarczak/http-timer",
+    "publisher": "Szymon Marczak",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@szmarczak/http-timer",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@szmarczak/http-timer/LICENSE"
+  },
+  "@tootallnate/once@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/once",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@tootallnate/once",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@tootallnate/once/LICENSE"
+  },
+  "@types/cacheable-request@6.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/cacheable-request",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/cacheable-request/LICENSE"
+  },
+  "@types/debug@4.1.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/debug",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/debug/LICENSE"
+  },
+  "@types/fs-extra@9.0.13": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/fs-extra",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/fs-extra/LICENSE"
+  },
+  "@types/http-cache-semantics@4.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/http-cache-semantics",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/http-cache-semantics/LICENSE"
+  },
+  "@types/keyv@3.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/keyv",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/keyv/LICENSE"
+  },
+  "@types/ms@0.7.31": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/ms",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/ms/LICENSE"
+  },
+  "@types/node@18.16.19": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/node",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/node/LICENSE"
+  },
+  "@types/responselike@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/responselike",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/responselike/LICENSE"
+  },
+  "@types/yauzl@2.10.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/yauzl",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@types/yauzl/LICENSE"
+  },
+  "abbrev@1.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/abbrev-js",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/abbrev",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/abbrev/LICENSE"
+  },
+  "ace-builds@1.23.1": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/ajaxorg/ace-builds",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/ace-builds",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/ace-builds/LICENSE"
+  },
+  "agent-base@6.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/node-agent-base",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/agent-base",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/agent-base/README.md"
+  },
+  "agentkeepalive@4.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/node-modules/agentkeepalive",
+    "publisher": "fengmk2",
+    "email": "fengmk2@gmail.com",
+    "url": "https://github.com/fengmk2",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/agentkeepalive",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/agentkeepalive/LICENSE"
+  },
+  "aggregate-error@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/aggregate-error",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/aggregate-error",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/aggregate-error/license"
+  },
+  "ajv-keywords@3.5.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/ajv-keywords",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/ajv-keywords",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/ajv-keywords/LICENSE"
+  },
+  "ajv@6.12.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ajv-validator/ajv",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/ajv",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/ajv/LICENSE"
+  },
+  "ansi-regex@5.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/ansi-regex",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/ansi-regex/license"
+  },
+  "ansi-regex@6.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui/node_modules/ansi-regex",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui/node_modules/ansi-regex/license"
+  },
+  "ansi-styles@3.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/ansi-styles",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/ansi-styles/license"
+  },
+  "ansi-styles@4.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/ansi-styles",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/ansi-styles/license"
+  },
+  "ansi-styles@6.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui/node_modules/ansi-styles",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui/node_modules/ansi-styles/license"
+  },
+  "app-builder-bin@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/develar/app-builder",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/app-builder-bin",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/app-builder-bin/readme.md"
+  },
+  "app-builder-lib@24.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron-userland/electron-builder",
+    "publisher": "Vladimir Krivosheev",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/app-builder-lib"
+  },
+  "aproba@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/aproba",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/aproba",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/aproba/LICENSE"
+  },
+  "are-we-there-yet@3.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/are-we-there-yet",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/are-we-there-yet",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/are-we-there-yet/LICENSE.md"
+  },
+  "argparse@2.0.1": {
+    "licenses": "Python-2.0",
+    "repository": "https://github.com/nodeca/argparse",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/argparse",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/argparse/LICENSE"
+  },
+  "array-find-index@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/array-find-index",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/array-find-index",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/array-find-index/license"
+  },
+  "asap@2.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kriskowal/asap",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/asap",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/asap/LICENSE.md"
+  },
+  "async-exit-hook@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tapppi/async-exit-hook",
+    "publisher": "Tapani Moilanen",
+    "email": "moilanen.tapani@gmail.com",
+    "url": "https://github.com/tapppi",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/async-exit-hook",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/async-exit-hook/license"
+  },
+  "async@3.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/caolan/async",
+    "publisher": "Caolan McMahon",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/async",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/async/LICENSE"
+  },
+  "asynckit@0.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alexindigo/asynckit",
+    "publisher": "Alex Indigo",
+    "email": "iam@alexindigo.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/asynckit",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/asynckit/LICENSE"
+  },
+  "at-least-node@1.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/RyanZim/at-least-node",
+    "publisher": "Ryan Zimmerman",
+    "email": "opensrc@ryanzim.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/at-least-node",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/at-least-node/LICENSE"
+  },
+  "balanced-match@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/balanced-match",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/balanced-match",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/balanced-match/LICENSE.md"
+  },
+  "base64-js@1.5.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/beatgammit/base64-js",
+    "publisher": "T. Jameson Little",
+    "email": "t.jameson.little@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/base64-js",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/base64-js/LICENSE"
+  },
+  "bl@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/rvagg/bl",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/bl",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/bl/LICENSE.md"
+  },
+  "bluebird-lst@1.0.9": {
+    "licenses": "MIT",
+    "repository": "https://github.com/develar/fs-extra-p",
+    "publisher": "Vladimir Krivosheev",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/bluebird-lst"
+  },
+  "bluebird@3.7.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/petkaantonov/bluebird",
+    "publisher": "Petka Antonov",
+    "email": "petka_antonov@hotmail.com",
+    "url": "http://github.com/petkaantonov/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/bluebird",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/bluebird/LICENSE"
+  },
+  "boolean@3.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thenativeweb/boolean",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/boolean",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/boolean/LICENSE.txt"
+  },
+  "brace-expansion@1.1.11": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/brace-expansion",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/glob/node_modules/brace-expansion",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/glob/node_modules/brace-expansion/LICENSE"
+  },
+  "brace-expansion@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/brace-expansion",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/brace-expansion",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/brace-expansion/LICENSE"
+  },
+  "buffer-crc32@0.2.13": {
+    "licenses": "MIT",
+    "repository": "https://github.com/brianloveswords/buffer-crc32",
+    "publisher": "Brian J. Brennan",
+    "email": "brianloveswords@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/buffer-crc32",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/buffer-crc32/LICENSE"
+  },
+  "buffer-equal@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/buffer-equal",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/buffer-equal",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/buffer-equal/LICENSE"
+  },
+  "buffer-from@1.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/LinusU/buffer-from",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/buffer-from",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/buffer-from/LICENSE"
+  },
+  "buffer@5.7.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/feross/buffer",
+    "publisher": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "https://feross.org",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/buffer",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/buffer/LICENSE"
+  },
+  "builder-util-runtime@9.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron-userland/electron-builder",
+    "publisher": "Vladimir Krivosheev",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/builder-util-runtime",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/builder-util-runtime/LICENSE"
+  },
+  "builder-util@24.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron-userland/electron-builder",
+    "publisher": "Vladimir Krivosheev",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/builder-util",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/builder-util/LICENSE"
+  },
+  "cacache@17.1.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/cacache",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/cacache",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/cacache/LICENSE.md"
+  },
+  "cacheable-lookup@5.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/szmarczak/cacheable-lookup",
+    "publisher": "Szymon Marczak",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/cacheable-lookup",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/cacheable-lookup/LICENSE"
+  },
+  "cacheable-request@7.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukechilds/cacheable-request",
+    "publisher": "Luke Childs",
+    "email": "lukechilds123@gmail.com",
+    "url": "http://lukechilds.co.uk",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/cacheable-request",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/cacheable-request/LICENSE"
+  },
+  "chalk@2.4.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/chalk",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/chalk",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/chalk/license"
+  },
+  "chalk@4.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/chalk",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/chalk",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/chalk/license"
+  },
+  "chownr@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/chownr",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/chownr",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/chownr/LICENSE"
+  },
+  "chromium-pickle-js@0.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/node-chromium-pickle-js",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/chromium-pickle-js",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/chromium-pickle-js/README.md"
+  },
+  "ci-info@3.8.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/watson/ci-info",
+    "publisher": "Thomas Watson Steen",
+    "email": "w@tson.dk",
+    "url": "https://twitter.com/wa7son",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/ci-info",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/ci-info/LICENSE"
+  },
+  "clean-stack@2.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/clean-stack",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/clean-stack",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/clean-stack/license"
+  },
+  "cli-cursor@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/cli-cursor",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/cli-cursor",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/cli-cursor/license"
+  },
+  "cli-spinners@2.9.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/cli-spinners",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/cli-spinners",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/cli-spinners/license"
+  },
+  "cliui@8.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/cliui",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/cliui",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/cliui/LICENSE.txt"
+  },
+  "clone-response@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/clone-response",
+    "publisher": "Luke Childs",
+    "email": "lukechilds123@gmail.com",
+    "url": "http://lukechilds.co.uk",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/clone-response",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/clone-response/LICENSE"
+  },
+  "clone@1.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/pvorb/node-clone",
+    "publisher": "Paul Vorbach",
+    "email": "paul@vorba.ch",
+    "url": "http://paul.vorba.ch/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/clone",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/clone/LICENSE"
+  },
+  "color-convert@1.9.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Qix-/color-convert",
+    "publisher": "Heather Arthur",
+    "email": "fayearthur@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/color-convert",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/color-convert/LICENSE"
+  },
+  "color-convert@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Qix-/color-convert",
+    "publisher": "Heather Arthur",
+    "email": "fayearthur@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/color-convert",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/color-convert/LICENSE"
+  },
+  "color-name@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dfcreative/color-name",
+    "publisher": "DY",
+    "email": "dfcreative@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/color-name",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/color-name/LICENSE"
+  },
+  "color-name@1.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/colorjs/color-name",
+    "publisher": "DY",
+    "email": "dfcreative@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/color-name",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/color-name/LICENSE"
+  },
+  "color-support@1.1.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/color-support",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/color-support",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/color-support/LICENSE"
+  },
+  "combined-stream@1.0.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/felixge/node-combined-stream",
+    "publisher": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/combined-stream",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/combined-stream/License"
+  },
+  "commander@5.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tj/commander.js",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/commander",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/commander/LICENSE"
+  },
+  "compare-version@0.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kevva/compare-version",
+    "publisher": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "https://github.com/kevva",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/compare-version",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/compare-version/README.md"
+  },
+  "concat-map@0.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/node-concat-map",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/concat-map",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/concat-map/LICENSE"
+  },
+  "config-file-ts@0.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mighdoll/config-file-ts",
+    "publisher": "lee mighdoll",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/config-file-ts",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/config-file-ts/LICENSE"
+  },
+  "console-control-strings@1.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/console-control-strings",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/console-control-strings",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/console-control-strings/LICENSE"
+  },
+  "cross-spawn@7.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/moxystudio/node-cross-spawn",
+    "publisher": "André Cruz",
+    "email": "andre@moxy.studio",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/cross-spawn",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/cross-spawn/LICENSE"
+  },
+  "debug@3.2.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/debug",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/debug",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/debug/LICENSE"
+  },
+  "debug@4.3.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/debug-js/debug",
+    "publisher": "Josh Junon",
+    "email": "josh.junon@protonmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/debug",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/debug/LICENSE"
+  },
+  "debuglog@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sam-github/node-debuglog",
+    "publisher": "Sam Roberts",
+    "email": "sam@strongloop.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/debuglog",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/debuglog/LICENSE"
+  },
+  "decompress-response@6.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/decompress-response",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/decompress-response",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/decompress-response/license"
+  },
+  "defaults@1.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/node-defaults",
+    "publisher": "Elijah Insua",
+    "email": "tmpvar@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/defaults",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/defaults/LICENSE"
+  },
+  "defer-to-connect@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/szmarczak/defer-to-connect",
+    "publisher": "Szymon Marczak",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/defer-to-connect",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/defer-to-connect/LICENSE"
+  },
+  "define-properties@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/define-properties",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/define-properties",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/define-properties/LICENSE"
+  },
+  "delayed-stream@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/felixge/node-delayed-stream",
+    "publisher": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/delayed-stream",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/delayed-stream/License"
+  },
+  "delegates@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/node-delegates",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/delegates",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/delegates/License"
+  },
+  "depd@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dougwilson/nodejs-depd",
+    "publisher": "Douglas Christopher Wilson",
+    "email": "doug@somethingdoug.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/depd",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/depd/LICENSE"
+  },
+  "detect-libc@2.0.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/lovell/detect-libc",
+    "publisher": "Lovell Fuller",
+    "email": "npm@lovell.info",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/detect-libc",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/detect-libc/LICENSE"
+  },
+  "detect-node@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/iliakan/detect-node",
+    "publisher": "Ilya Kantor",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/detect-node",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/detect-node/LICENSE"
+  },
+  "dezalgo@1.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/dezalgo",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/dezalgo",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/dezalgo/LICENSE"
+  },
+  "dir-compare@3.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/gliviu/dir-compare",
+    "publisher": "Liviu Grigorescu",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/dir-compare",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/dir-compare/LICENSE"
+  },
+  "dmg-builder@24.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron-userland/electron-builder",
+    "publisher": "Vladimir Krivosheev",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/dmg-builder",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/dmg-builder/readme.md"
+  },
+  "dotenv-expand@5.1.0": {
+    "licenses": "BSD-2-Clause",
+    "publisher": "motdotla",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/dotenv-expand",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/dotenv-expand/LICENSE"
+  },
+  "dotenv@9.0.2": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/motdotla/dotenv",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/dotenv",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/dotenv/LICENSE"
+  },
+  "eastasianwidth@0.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/komagata/eastasianwidth",
+    "publisher": "Masaki Komagata",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/eastasianwidth",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/eastasianwidth/README.md"
+  },
+  "ejs@3.1.9": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mde/ejs",
+    "publisher": "Matthew Eernisse",
+    "email": "mde@fleegix.org",
+    "url": "http://fleegix.org",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/ejs",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/ejs/LICENSE"
+  },
+  "electron-builder@24.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron-userland/electron-builder",
+    "publisher": "Vladimir Krivosheev",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/electron-builder",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/electron-builder/LICENSE"
+  },
+  "electron-publish@24.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron-userland/electron-builder",
+    "publisher": "Vladimir Krivosheev",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/electron-publish",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/electron-publish/LICENSE"
+  },
+  "electron@25.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/electron",
+    "publisher": "Electron Community",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/electron",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/electron/LICENSE"
+  },
+  "emoji-regex@8.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/emoji-regex",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/emoji-regex",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/emoji-regex/LICENSE-MIT.txt"
+  },
+  "emoji-regex@9.2.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/emoji-regex",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui/node_modules/emoji-regex",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui/node_modules/emoji-regex/LICENSE-MIT.txt"
+  },
+  "encoding@0.1.13": {
+    "licenses": "MIT",
+    "repository": "https://github.com/andris9/encoding",
+    "publisher": "Andris Reinman",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/encoding",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/encoding/LICENSE"
+  },
+  "end-of-stream@1.4.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mafintosh/end-of-stream",
+    "publisher": "Mathias Buus",
+    "email": "mathiasbuus@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/end-of-stream",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/end-of-stream/LICENSE"
+  },
+  "env-paths@2.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/env-paths",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/env-paths",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/env-paths/license"
+  },
+  "err-code@2.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/IndigoUnited/js-err-code",
+    "publisher": "IndigoUnited",
+    "email": "hello@indigounited.com",
+    "url": "http://indigounited.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/err-code",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/err-code/README.md"
+  },
+  "es6-error@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/bjyoungblood/es6-error",
+    "publisher": "Ben Youngblood",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/es6-error",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/es6-error/LICENSE.md"
+  },
+  "escalade@3.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/escalade",
+    "publisher": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/escalade",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/escalade/license"
+  },
+  "escape-string-regexp@1.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/escape-string-regexp",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/escape-string-regexp",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/escape-string-regexp/license"
+  },
+  "escape-string-regexp@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/escape-string-regexp",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/escape-string-regexp",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/escape-string-regexp/license"
+  },
+  "exponential-backoff@3.1.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/coveo/exponential-backoff",
+    "publisher": "Sami Sayegh",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/exponential-backoff",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/exponential-backoff/LICENSE"
+  },
+  "extract-zip@2.0.1": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/maxogden/extract-zip",
+    "publisher": "max ogden",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/extract-zip",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/extract-zip/LICENSE"
+  },
+  "fast-deep-equal@3.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/fast-deep-equal",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/fast-deep-equal",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/fast-deep-equal/LICENSE"
+  },
+  "fast-json-stable-stringify@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/fast-json-stable-stringify",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/fast-json-stable-stringify",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/fast-json-stable-stringify/LICENSE"
+  },
+  "fd-slicer@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/andrewrk/node-fd-slicer",
+    "publisher": "Andrew Kelley",
+    "email": "superjoe30@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/fd-slicer",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/fd-slicer/LICENSE"
+  },
+  "filelist@1.0.4": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/mde/filelist",
+    "publisher": "Matthew Eernisse",
+    "email": "mde@fleegix.org",
+    "url": "http://fleegix.org",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/filelist",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/filelist/README.md"
+  },
+  "foreground-child@3.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/tapjs/foreground-child",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/foreground-child",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/foreground-child/LICENSE"
+  },
+  "form-data@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/form-data/form-data",
+    "publisher": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/form-data",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/form-data/License"
+  },
+  "fs-extra@10.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jprichardson/node-fs-extra",
+    "publisher": "JP Richardson",
+    "email": "jprichardson@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/osx-sign/node_modules/fs-extra",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/osx-sign/node_modules/fs-extra/LICENSE"
+  },
+  "fs-extra@8.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jprichardson/node-fs-extra",
+    "publisher": "JP Richardson",
+    "email": "jprichardson@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/fs-extra",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/fs-extra/LICENSE"
+  },
+  "fs-extra@9.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jprichardson/node-fs-extra",
+    "publisher": "JP Richardson",
+    "email": "jprichardson@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/notarize/node_modules/fs-extra",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/notarize/node_modules/fs-extra/LICENSE"
+  },
+  "fs-minipass@2.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/fs-minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/tar/node_modules/fs-minipass",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/tar/node_modules/fs-minipass/LICENSE"
+  },
+  "fs-minipass@3.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/fs-minipass",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/fs-minipass",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/fs-minipass/LICENSE"
+  },
+  "fs.realpath@1.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/fs.realpath",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/fs.realpath",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/fs.realpath/LICENSE"
+  },
+  "function-bind@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Raynos/function-bind",
+    "publisher": "Raynos",
+    "email": "raynos2@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/function-bind",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/function-bind/LICENSE"
+  },
+  "gauge@4.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/gauge",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/gauge",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/gauge/LICENSE.md"
+  },
+  "get-caller-file@2.0.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/stefanpenner/get-caller-file",
+    "publisher": "Stefan Penner",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/get-caller-file",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/get-caller-file/LICENSE.md"
+  },
+  "get-intrinsic@1.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/get-intrinsic",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/get-intrinsic",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/get-intrinsic/LICENSE"
+  },
+  "get-stream@5.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/get-stream",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/get-stream",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/get-stream/license"
+  },
+  "glob@10.3.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-glob",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/cacache/node_modules/glob",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/cacache/node_modules/glob/LICENSE"
+  },
+  "glob@7.2.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-glob",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/glob",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/glob/LICENSE"
+  },
+  "global-agent@3.0.0": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/gajus/global-agent",
+    "publisher": "Gajus Kuizinas",
+    "email": "gajus@gajus.com",
+    "url": "http://gajus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/global-agent",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/global-agent/LICENSE"
+  },
+  "globalthis@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/System.global",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/globalthis",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/globalthis/LICENSE"
+  },
+  "got@11.8.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/got",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/got",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/got/license"
+  },
+  "graceful-fs@4.2.11": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-graceful-fs",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/graceful-fs",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/graceful-fs/LICENSE"
+  },
+  "has-flag@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/has-flag",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/has-flag",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/has-flag/license"
+  },
+  "has-flag@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/has-flag",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/has-flag",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/has-flag/license"
+  },
+  "has-property-descriptors@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/has-property-descriptors",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/has-property-descriptors",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/has-property-descriptors/LICENSE"
+  },
+  "has-proto@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/has-proto",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/has-proto",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/has-proto/LICENSE"
+  },
+  "has-symbols@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/has-symbols",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/has-symbols",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/has-symbols/LICENSE"
+  },
+  "has-unicode@2.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/has-unicode",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/has-unicode",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/has-unicode/LICENSE"
+  },
+  "has@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tarruda/has",
+    "publisher": "Thiago de Arruda",
+    "email": "tpadilha84@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/has",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/has/LICENSE-MIT"
+  },
+  "hosted-git-info@2.8.9": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/hosted-git-info",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/normalize-package-data/node_modules/hosted-git-info",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/normalize-package-data/node_modules/hosted-git-info/LICENSE"
+  },
+  "hosted-git-info@4.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/hosted-git-info",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/hosted-git-info",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/hosted-git-info/LICENSE"
+  },
+  "http-cache-semantics@4.1.1": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/kornelski/http-cache-semantics",
+    "publisher": "Kornel Lesiński",
+    "email": "kornel@geekhood.net",
+    "url": "https://kornel.ski/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/http-cache-semantics",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/http-cache-semantics/LICENSE"
+  },
+  "http-proxy-agent@5.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/node-http-proxy-agent",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/http-proxy-agent",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/http-proxy-agent/README.md"
+  },
+  "http2-wrapper@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/szmarczak/http2-wrapper",
+    "publisher": "Szymon Marczak",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/http2-wrapper",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/http2-wrapper/LICENSE"
+  },
+  "https-proxy-agent@5.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/node-https-proxy-agent",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/https-proxy-agent",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/https-proxy-agent/README.md"
+  },
+  "humanize-ms@1.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/node-modules/humanize-ms",
+    "publisher": "dead-horse",
+    "email": "dead_horse@qq.com",
+    "url": "http://deadhorse.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/humanize-ms",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/humanize-ms/LICENSE"
+  },
+  "iconv-lite@0.6.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ashtuchkin/iconv-lite",
+    "publisher": "Alexander Shtuchkin",
+    "email": "ashtuchkin@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/iconv-lite",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/iconv-lite/LICENSE"
+  },
+  "ieee754@1.2.1": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/feross/ieee754",
+    "publisher": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "https://feross.org",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/ieee754",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/ieee754/LICENSE"
+  },
+  "imurmurhash@0.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jensyt/imurmurhash-js",
+    "publisher": "Jens Taylor",
+    "email": "jensyt@gmail.com",
+    "url": "https://github.com/homebrewing",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/imurmurhash",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/imurmurhash/README.md"
+  },
+  "indent-string@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/indent-string",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/indent-string",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/indent-string/license"
+  },
+  "inflight@1.0.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/inflight",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/inflight",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/inflight/LICENSE"
+  },
+  "inherits@2.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/inherits",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/inherits",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/inherits/LICENSE"
+  },
+  "ip@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/indutny/node-ip",
+    "publisher": "Fedor Indutny",
+    "email": "fedor@indutny.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/ip",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/ip/README.md"
+  },
+  "is-ci@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/watson/is-ci",
+    "publisher": "Thomas Watson Steen",
+    "email": "w@tson.dk",
+    "url": "https://twitter.com/wa7son",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/is-ci",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/is-ci/LICENSE"
+  },
+  "is-core-module@2.12.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-core-module",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/is-core-module",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/is-core-module/LICENSE"
+  },
+  "is-fullwidth-code-point@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-fullwidth-code-point",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/is-fullwidth-code-point",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/is-fullwidth-code-point/license"
+  },
+  "is-interactive@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-interactive",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/is-interactive",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/is-interactive/license"
+  },
+  "is-lambda@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/watson/is-lambda",
+    "publisher": "Thomas Watson Steen",
+    "email": "w@tson.dk",
+    "url": "https://twitter.com/wa7son",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/is-lambda",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/is-lambda/LICENSE"
+  },
+  "is-unicode-supported@0.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-unicode-supported",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/is-unicode-supported",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/is-unicode-supported/license"
+  },
+  "isbinaryfile@4.0.10": {
+    "licenses": "MIT",
+    "repository": "https://github.com/gjtorikian/isBinaryFile",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/osx-sign/node_modules/isbinaryfile",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/osx-sign/node_modules/isbinaryfile/LICENSE.txt"
+  },
+  "isbinaryfile@5.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/gjtorikian/isBinaryFile",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/isbinaryfile",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/isbinaryfile/LICENSE.txt"
+  },
+  "isexe@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/isexe",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/isexe",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/isexe/LICENSE"
+  },
+  "jackspeak@2.2.1": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/jackspeak",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/jackspeak",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/jackspeak/LICENSE.md"
+  },
+  "jake@10.8.7": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/jakejs/jake",
+    "publisher": "Matthew Eernisse",
+    "email": "mde@fleegix.org",
+    "url": "http://fleegix.org",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/jake",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/jake/README.md"
+  },
+  "js-yaml@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodeca/js-yaml",
+    "publisher": "Vladimir Zapparov",
+    "email": "dervus.grim@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/js-yaml",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/js-yaml/LICENSE"
+  },
+  "json-buffer@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dominictarr/json-buffer",
+    "publisher": "Dominic Tarr",
+    "email": "dominic.tarr@gmail.com",
+    "url": "http://dominictarr.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/json-buffer",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/json-buffer/LICENSE"
+  },
+  "json-parse-even-better-errors@2.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/npm/json-parse-even-better-errors",
+    "publisher": "Kat Marchán",
+    "email": "kzm@zkat.tech",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/json-parse-even-better-errors",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/json-parse-even-better-errors/LICENSE.md"
+  },
+  "json-schema-traverse@0.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/json-schema-traverse",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/json-schema-traverse",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/json-schema-traverse/LICENSE"
+  },
+  "json-stringify-safe@5.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/json-stringify-safe",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/json-stringify-safe",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/json-stringify-safe/LICENSE"
+  },
+  "json5@2.2.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/json5/json5",
+    "publisher": "Aseem Kishore",
+    "email": "aseem.kishore@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/json5",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/json5/LICENSE.md"
+  },
+  "jsonfile@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jprichardson/node-jsonfile",
+    "publisher": "JP Richardson",
+    "email": "jprichardson@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/jsonfile",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/jsonfile/LICENSE"
+  },
+  "jsonfile@6.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jprichardson/node-jsonfile",
+    "publisher": "JP Richardson",
+    "email": "jprichardson@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/notarize/node_modules/jsonfile",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/notarize/node_modules/jsonfile/LICENSE"
+  },
+  "keyv@4.5.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jaredwray/keyv",
+    "publisher": "Jared Wray",
+    "email": "me@jaredwray.com",
+    "url": "http://jaredwray.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/keyv",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/keyv/README.md"
+  },
+  "lazy-val@1.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/develar/lazy-val",
+    "publisher": "Vladimir Krivosheev",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/lazy-val",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/lazy-val/readme.md"
+  },
+  "license-checker@25.0.1": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/davglass/license-checker",
+    "publisher": "Dav Glass",
+    "email": "davglass@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/LICENSE"
+  },
+  "lodash@4.17.21": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/lodash",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/lodash/LICENSE"
+  },
+  "log-symbols@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/log-symbols",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/log-symbols",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/log-symbols/license"
+  },
+  "lowercase-keys@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/lowercase-keys",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/lowercase-keys",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/lowercase-keys/license"
+  },
+  "lru-cache@10.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-lru-cache",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/path-scurry/node_modules/lru-cache",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/path-scurry/node_modules/lru-cache/LICENSE"
+  },
+  "lru-cache@6.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-lru-cache",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/lru-cache",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/lru-cache/LICENSE"
+  },
+  "lru-cache@7.18.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-lru-cache",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/cacache/node_modules/lru-cache",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/cacache/node_modules/lru-cache/LICENSE"
+  },
+  "make-fetch-happen@11.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/make-fetch-happen",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/make-fetch-happen",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/make-fetch-happen/LICENSE"
+  },
+  "marked@5.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/markedjs/marked",
+    "publisher": "Christopher Jeffrey",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/marked",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/marked/LICENSE.md"
+  },
+  "matcher@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/matcher",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/matcher",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/matcher/license"
+  },
+  "mcgwire@3.5.1": {
+    "licenses": "ISC",
+    "path": "/home/itsuki/Desktop/develop/McGwire",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/LICENSE"
+  },
+  "mime-db@1.52.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jshttp/mime-db",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/mime-db",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/mime-db/LICENSE"
+  },
+  "mime-types@2.1.35": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jshttp/mime-types",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/mime-types",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/mime-types/LICENSE"
+  },
+  "mime@2.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/broofa/mime",
+    "publisher": "Robert Kieffer",
+    "email": "robert@broofa.com",
+    "url": "http://github.com/broofa",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/mime",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/mime/LICENSE"
+  },
+  "mimic-fn@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/mimic-fn",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/mimic-fn",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/mimic-fn/license"
+  },
+  "mimic-response@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/mimic-response",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/mimic-response",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/mimic-response/license"
+  },
+  "mimic-response@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/mimic-response",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/decompress-response/node_modules/mimic-response",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/decompress-response/node_modules/mimic-response/license"
+  },
+  "minimatch@3.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/glob/node_modules/minimatch",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/glob/node_modules/minimatch/LICENSE"
+  },
+  "minimatch@5.1.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/minimatch",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/minimatch/LICENSE"
+  },
+  "minimatch@9.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/cacache/node_modules/minimatch",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/cacache/node_modules/minimatch/LICENSE"
+  },
+  "minimist@1.2.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/minimistjs/minimist",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/minimist",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/minimist/LICENSE"
+  },
+  "minipass-collect@1.0.2": {
+    "licenses": "ISC",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass-collect",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass-collect/LICENSE"
+  },
+  "minipass-fetch@3.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/npm/minipass-fetch",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass-fetch",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass-fetch/LICENSE"
+  },
+  "minipass-flush@1.0.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minipass-flush",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass-flush",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass-flush/LICENSE"
+  },
+  "minipass-pipeline@1.2.4": {
+    "licenses": "ISC",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass-pipeline",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass-pipeline/LICENSE"
+  },
+  "minipass-sized@1.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minipass-sized",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass-sized",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass-sized/LICENSE"
+  },
+  "minipass@3.3.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass-sized/node_modules/minipass",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass-sized/node_modules/minipass/LICENSE"
+  },
+  "minipass@5.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/minipass/LICENSE"
+  },
+  "minizlib@2.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/minizlib",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/minizlib",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/minizlib/LICENSE"
+  },
+  "mkdirp@0.5.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/node-mkdirp",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/mkdirp",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/mkdirp/LICENSE"
+  },
+  "mkdirp@1.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/node-mkdirp",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/mkdirp",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/mkdirp/LICENSE"
+  },
+  "ms@2.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zeit/ms",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/ms",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/ms/license.md"
+  },
+  "negotiator@0.6.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jshttp/negotiator",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/negotiator",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/negotiator/LICENSE"
+  },
+  "node-abi@3.45.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/node-abi",
+    "publisher": "Lukas Geiger",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/node-abi",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/node-abi/LICENSE"
+  },
+  "node-api-version@0.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/timfish/node-api-version",
+    "publisher": "Tim Fish",
+    "email": "tim@timfish.uk",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/node-api-version",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/node-api-version/README.md"
+  },
+  "node-gyp@9.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/node-gyp",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://tootallnate.net",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/node-gyp",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/node-gyp/LICENSE"
+  },
+  "nopt@4.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/nopt",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/nopt",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/nopt/LICENSE"
+  },
+  "nopt@6.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/nopt",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/nopt",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/nopt/LICENSE"
+  },
+  "normalize-package-data@2.5.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/npm/normalize-package-data",
+    "publisher": "Meryn Stol",
+    "email": "merynstol@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/normalize-package-data",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/normalize-package-data/LICENSE"
+  },
+  "normalize-url@6.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/normalize-url",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/normalize-url",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/normalize-url/license"
+  },
+  "npm-normalize-package-bin@1.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/npm-normalize-package-bin",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/npm-normalize-package-bin",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/npm-normalize-package-bin/LICENSE"
+  },
+  "npmlog@6.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/npmlog",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/npmlog",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/npmlog/LICENSE.md"
+  },
+  "object-keys@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/object-keys",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/object-keys",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/object-keys/LICENSE"
+  },
+  "once@1.4.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/once",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/once",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/once/LICENSE"
+  },
+  "onetime@5.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/onetime",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/onetime",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/onetime/license"
+  },
+  "ora@5.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/ora",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/ora",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/ora/license"
+  },
+  "os-homedir@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/os-homedir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/os-homedir",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/os-homedir/license"
+  },
+  "os-tmpdir@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/os-tmpdir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/os-tmpdir",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/os-tmpdir/license"
+  },
+  "osenv@0.1.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/osenv",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/osenv",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/osenv/LICENSE"
+  },
+  "p-cancelable@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-cancelable",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/p-cancelable",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/p-cancelable/license"
+  },
+  "p-map@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-map",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/p-map",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/p-map/license"
+  },
+  "path-is-absolute@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-is-absolute",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/path-is-absolute",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/path-is-absolute/license"
+  },
+  "path-key@3.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-key",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/path-key",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/path-key/license"
+  },
+  "path-parse@1.0.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jbgutierrez/path-parse",
+    "publisher": "Javier Blanco",
+    "email": "http://jbgutierrez.info",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/path-parse",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/path-parse/LICENSE"
+  },
+  "path-scurry@1.10.0": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/path-scurry",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://blog.izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/path-scurry",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/path-scurry/LICENSE.md"
+  },
+  "pend@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/andrewrk/node-pend",
+    "publisher": "Andrew Kelley",
+    "email": "superjoe30@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/pend",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/pend/LICENSE"
+  },
+  "plist@3.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/node-plist",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/plist",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/plist/LICENSE"
+  },
+  "progress@2.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/node-progress",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/progress",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/progress/LICENSE"
+  },
+  "promise-retry@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/IndigoUnited/node-promise-retry",
+    "publisher": "IndigoUnited",
+    "email": "hello@indigounited.com",
+    "url": "http://indigounited.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/promise-retry",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/promise-retry/LICENSE"
+  },
+  "pump@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mafintosh/pump",
+    "publisher": "Mathias Buus Madsen",
+    "email": "mathiasbuus@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/pump",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/pump/LICENSE"
+  },
+  "punycode@2.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/punycode.js",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/punycode",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/punycode/LICENSE-MIT.txt"
+  },
+  "quick-lru@5.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/quick-lru",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/quick-lru",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/quick-lru/license"
+  },
+  "read-config-file@6.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/develar/read-config-file",
+    "publisher": "Vladimir Krivosheev",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/read-config-file",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/read-config-file/LICENSE"
+  },
+  "read-installed@4.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/read-installed",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/read-installed",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/read-installed/LICENSE"
+  },
+  "read-package-json@2.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/read-package-json",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/read-package-json",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/read-package-json/LICENSE"
+  },
+  "readable-stream@3.6.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/readable-stream",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/readable-stream",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/readable-stream/LICENSE"
+  },
+  "readdir-scoped-modules@1.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/readdir-scoped-modules",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/readdir-scoped-modules",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/readdir-scoped-modules/LICENSE"
+  },
+  "require-directory@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/troygoode/node-require-directory",
+    "publisher": "Troy Goode",
+    "email": "troygoode@gmail.com",
+    "url": "http://github.com/troygoode/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/require-directory",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/require-directory/LICENSE"
+  },
+  "resolve-alpn@1.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/szmarczak/resolve-alpn",
+    "publisher": "Szymon Marczak",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/resolve-alpn",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/resolve-alpn/LICENSE"
+  },
+  "resolve@1.22.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/browserify/resolve",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/resolve",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/resolve/LICENSE"
+  },
+  "responselike@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/responselike",
+    "publisher": "lukechilds",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/responselike",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/responselike/LICENSE"
+  },
+  "restore-cursor@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/restore-cursor",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/restore-cursor",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/restore-cursor/license"
+  },
+  "retry@0.12.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tim-kos/node-retry",
+    "publisher": "Tim Koschützki",
+    "email": "tim@debuggable.com",
+    "url": "http://debuggable.com/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/retry",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/retry/License"
+  },
+  "rimraf@3.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/rimraf",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/rimraf",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/rimraf/LICENSE"
+  },
+  "roarr@2.15.4": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/gajus/roarr",
+    "publisher": "Gajus Kuizinas",
+    "email": "gajus@gajus.com",
+    "url": "http://gajus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/roarr",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/roarr/LICENSE"
+  },
+  "safe-buffer@5.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/feross/safe-buffer",
+    "publisher": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "https://feross.org",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/safe-buffer",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/safe-buffer/LICENSE"
+  },
+  "safer-buffer@2.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ChALkeR/safer-buffer",
+    "publisher": "Nikita Skovoroda",
+    "email": "chalkerx@gmail.com",
+    "url": "https://github.com/ChALkeR",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/safer-buffer",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/safer-buffer/LICENSE"
+  },
+  "sanitize-filename@1.6.3": {
+    "licenses": "WTFPL OR ISC",
+    "repository": "https://github.com/parshap/node-sanitize-filename",
+    "publisher": "Parsha Pourkhomami",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/sanitize-filename",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/sanitize-filename/LICENSE.md"
+  },
+  "sax@1.2.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/sax-js",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/sax",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/sax/LICENSE"
+  },
+  "semver-compare@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/semver-compare",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/semver-compare",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/semver-compare/LICENSE"
+  },
+  "semver@5.7.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/normalize-package-data/node_modules/semver",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/normalize-package-data/node_modules/semver/LICENSE"
+  },
+  "semver@6.3.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/semver",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/semver/LICENSE"
+  },
+  "semver@7.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/simple-update-notifier/node_modules/semver",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/simple-update-notifier/node_modules/semver/LICENSE"
+  },
+  "semver@7.5.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/node-abi/node_modules/semver",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/node-abi/node_modules/semver/LICENSE"
+  },
+  "serialize-error@7.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/serialize-error",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/serialize-error",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/serialize-error/license"
+  },
+  "set-blocking@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/set-blocking",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/set-blocking",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/set-blocking/LICENSE.txt"
+  },
+  "shebang-command@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kevva/shebang-command",
+    "publisher": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/shebang-command",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/shebang-command/license"
+  },
+  "shebang-regex@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/shebang-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/shebang-regex",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/shebang-regex/license"
+  },
+  "signal-exit@3.0.7": {
+    "licenses": "ISC",
+    "repository": "https://github.com/tapjs/signal-exit",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/signal-exit",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/signal-exit/LICENSE.txt"
+  },
+  "signal-exit@4.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/tapjs/signal-exit",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/foreground-child/node_modules/signal-exit",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/foreground-child/node_modules/signal-exit/LICENSE.txt"
+  },
+  "simple-update-notifier@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alexbrazier/simple-update-notifier",
+    "publisher": "alexbrazier",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/simple-update-notifier",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/simple-update-notifier/LICENSE"
+  },
+  "slide@1.1.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/slide-flow-control",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/slide",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/slide/LICENSE"
+  },
+  "smart-buffer@4.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/JoshGlazebrook/smart-buffer",
+    "publisher": "Josh Glazebrook",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/smart-buffer",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/smart-buffer/LICENSE"
+  },
+  "socks-proxy-agent@7.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/node-socks-proxy-agent",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/socks-proxy-agent",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/socks-proxy-agent/README.md"
+  },
+  "socks@2.7.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/JoshGlazebrook/socks",
+    "publisher": "Josh Glazebrook",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/socks",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/socks/LICENSE"
+  },
+  "source-map-support@0.5.21": {
+    "licenses": "MIT",
+    "repository": "https://github.com/evanw/node-source-map-support",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/source-map-support",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/source-map-support/LICENSE.md"
+  },
+  "source-map@0.6.1": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/mozilla/source-map",
+    "publisher": "Nick Fitzgerald",
+    "email": "nfitzgerald@mozilla.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/source-map",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/source-map/LICENSE"
+  },
+  "spdx-compare@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kemitchell/spdx-compare.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-compare",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-compare/LICENSE.md"
+  },
+  "spdx-correct@3.2.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/jslicense/spdx-correct.js",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-correct",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-correct/LICENSE"
+  },
+  "spdx-exceptions@2.3.0": {
+    "licenses": "CC-BY-3.0",
+    "repository": "https://github.com/kemitchell/spdx-exceptions.json",
+    "publisher": "The Linux Foundation",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-exceptions",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-exceptions/README.md"
+  },
+  "spdx-expression-parse@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jslicense/spdx-expression-parse.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-expression-parse",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-expression-parse/LICENSE"
+  },
+  "spdx-license-ids@3.0.13": {
+    "licenses": "CC0-1.0",
+    "repository": "https://github.com/jslicense/spdx-license-ids",
+    "publisher": "Shinnosuke Watanabe",
+    "url": "https://github.com/shinnn",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-license-ids",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-license-ids/README.md"
+  },
+  "spdx-ranges@2.1.1": {
+    "licenses": "(MIT AND CC-BY-3.0)",
+    "repository": "https://github.com/kemitchell/spdx-ranges.js",
+    "publisher": "The Linux Foundation",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-ranges",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-ranges/LICENSE.md"
+  },
+  "spdx-satisfies@4.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kemitchell/spdx-satisfies.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-satisfies",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/spdx-satisfies/LICENSE"
+  },
+  "sprintf-js@1.1.2": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/alexei/sprintf.js",
+    "publisher": "Alexandru Mărășteanu",
+    "email": "hello@alexei.ro",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/sprintf-js",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/sprintf-js/LICENSE"
+  },
+  "ssri@10.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/ssri",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/ssri",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/ssri/LICENSE.md"
+  },
+  "stat-mode@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/stat-mode",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/stat-mode",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/stat-mode/LICENSE"
+  },
+  "string-width@4.2.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/string-width",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/string-width/license"
+  },
+  "string-width@5.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui/node_modules/string-width",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui/node_modules/string-width/license"
+  },
+  "string_decoder@1.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/string_decoder",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/string_decoder",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/string_decoder/LICENSE"
+  },
+  "strip-ansi@6.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/strip-ansi",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/strip-ansi/license"
+  },
+  "strip-ansi@7.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui/node_modules/strip-ansi",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui/node_modules/strip-ansi/license"
+  },
+  "sumchecker@3.0.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/malept/sumchecker",
+    "publisher": "Mark Lee",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/sumchecker",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/sumchecker/LICENSE"
+  },
+  "supports-color@5.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/supports-color",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/supports-color",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/license-checker/node_modules/supports-color/license"
+  },
+  "supports-color@7.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/supports-color",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/supports-color",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/supports-color/license"
+  },
+  "supports-preserve-symlinks-flag@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/node-supports-preserve-symlinks-flag",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/supports-preserve-symlinks-flag",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/supports-preserve-symlinks-flag/LICENSE"
+  },
+  "tar@6.1.15": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-tar",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/tar",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/tar/LICENSE"
+  },
+  "temp-file@3.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/develar/temp-file",
+    "publisher": "Vladimir Krivosheev",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/temp-file",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/temp-file/readme.md"
+  },
+  "tmp-promise@3.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/benjamingr/tmp-promise",
+    "publisher": "Benjamin Gruenbaum and Collaborators.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/tmp-promise",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/tmp-promise/README.md"
+  },
+  "tmp@0.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/raszi/node-tmp",
+    "publisher": "KARASZI István",
+    "email": "github@spam.raszi.hu",
+    "url": "http://raszi.hu/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/tmp",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/tmp/LICENSE"
+  },
+  "treeify@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/notatestuser/treeify",
+    "publisher": "Luke Plaster",
+    "email": "notatestuser@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/treeify",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/treeify/LICENSE"
+  },
+  "truncate-utf8-bytes@1.0.2": {
+    "licenses": "WTFPL",
+    "repository": "https://github.com/parshap/truncate-utf8-bytes",
+    "publisher": "Carl Xiong",
+    "email": "xiongc05@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/truncate-utf8-bytes",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/truncate-utf8-bytes/README.md"
+  },
+  "type-fest@0.13.1": {
+    "licenses": "(MIT OR CC0-1.0)",
+    "repository": "https://github.com/sindresorhus/type-fest",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/type-fest",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/type-fest/license"
+  },
+  "typescript@4.9.5": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/Microsoft/TypeScript",
+    "publisher": "Microsoft Corp.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/typescript",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/typescript/LICENSE.txt"
+  },
+  "unique-filename@3.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/unique-filename",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/unique-filename",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/unique-filename/LICENSE"
+  },
+  "unique-slug@4.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/unique-slug",
+    "publisher": "GitHub Inc.",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/unique-slug",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/unique-slug/LICENSE"
+  },
+  "universalify@0.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/RyanZim/universalify",
+    "publisher": "Ryan Zimmerman",
+    "email": "opensrc@ryanzim.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/universalify",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/universalify/LICENSE"
+  },
+  "universalify@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/RyanZim/universalify",
+    "publisher": "Ryan Zimmerman",
+    "email": "opensrc@ryanzim.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/notarize/node_modules/universalify",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@electron/notarize/node_modules/universalify/LICENSE"
+  },
+  "uri-js@4.4.1": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/garycourt/uri-js",
+    "publisher": "Gary Court",
+    "email": "gary.court@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/uri-js",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/uri-js/LICENSE"
+  },
+  "utf8-byte-length@1.0.4": {
+    "licenses": "WTFPL",
+    "repository": "https://github.com/parshap/utf8-byte-length",
+    "publisher": "Carl Xiong",
+    "email": "xiongc05@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/utf8-byte-length",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/utf8-byte-length/README.md"
+  },
+  "util-deprecate@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/util-deprecate",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/util-deprecate",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/util-deprecate/LICENSE"
+  },
+  "util-extend@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/util-extend",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/util-extend",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/util-extend/LICENSE"
+  },
+  "validate-npm-package-license@3.0.4": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/kemitchell/validate-npm-package-license.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/validate-npm-package-license",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/validate-npm-package-license/LICENSE"
+  },
+  "wcwidth@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/timoxley/wcwidth",
+    "publisher": "Tim Oxley",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/wcwidth",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/wcwidth/LICENSE"
+  },
+  "which@2.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-which",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/which",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/which/LICENSE"
+  },
+  "wide-align@1.1.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/iarna/wide-align",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/wide-align",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/wide-align/LICENSE"
+  },
+  "wrap-ansi@7.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/wrap-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/wrap-ansi",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/wrap-ansi/license"
+  },
+  "wrap-ansi@8.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/wrap-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui/node_modules/wrap-ansi",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/@isaacs/cliui/node_modules/wrap-ansi/license"
+  },
+  "wrappy@1.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/wrappy",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/wrappy",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/wrappy/LICENSE"
+  },
+  "xmlbuilder@15.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/oozcitak/xmlbuilder-js",
+    "publisher": "Ozgur Ozcitak",
+    "email": "oozcitak@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/xmlbuilder",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/xmlbuilder/LICENSE"
+  },
+  "y18n@5.0.8": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/y18n",
+    "publisher": "Ben Coe",
+    "email": "bencoe@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/y18n",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/y18n/LICENSE"
+  },
+  "yallist@4.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/yallist",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/yallist",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/yallist/LICENSE"
+  },
+  "yargs-parser@21.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/yargs-parser",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/yargs-parser",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/yargs-parser/LICENSE.txt"
+  },
+  "yargs@17.7.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/yargs/yargs",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/yargs",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/yargs/LICENSE"
+  },
+  "yauzl@2.10.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thejoshwolfe/yauzl",
+    "publisher": "Josh Wolfe",
+    "email": "thejoshwolfe@gmail.com",
+    "path": "/home/itsuki/Desktop/develop/McGwire/node_modules/yauzl",
+    "licenseFile": "/home/itsuki/Desktop/develop/McGwire/node_modules/yauzl/LICENSE"
+  }
+}
+

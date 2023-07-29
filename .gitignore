@@ -1,0 +1,6 @@
+/node_modules/
+/mcgwire-linux-x64/
+/mcgwire-win32-x64/
+/src/preview.html
+/dist/
+McGwire.sh

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- npm install ace-buildsで導入し、node_modules\ace-builds\src\ace.js, mode-markdown.js, ext-searchbox.jsをsrc/ace/js配下にコピー -->
+  <script src="./js/ace/ace.js"></script>
+  <!-- npm install markedで導入し、\node_modules\marked\marked.min.jsをsrc/marked/js配下にコピー -->
+  <script src="./js/marked/marked.min.js"></script>
+  <link href="./js/shepherd/css/shepherd.css" rel="stylesheet">
+  <script src="./js/shepherd/js/shepherd.min.js"></script>
+  <link rel="stylesheet" href="./css/github.css" />
+  <link rel="stylesheet" href="./css/editor.css" />
+  <title>McGwire</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="app-title">
+      <h1 class="title_h1 light-theme">McGwire Markdown</h1>
+    </div>
+    <div class="app-setting-btn">
+      <button class="btn-app-settings" id="btnAppGuide">Guide</button>
+      <button class="btn-app-settings" id="themeButton">Theme</button>
+      <button class="btn-app-settings" id="langButton">Languege</button>
+      <button class="btn-app-settings" id="btnOssLicenses">OSS Licenses</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="editor-area">
+      <h5 class="title_h5 light-theme", id="functions">機能</h5>
+      <button class="btn-function" id="btnOpen">開く</button>
+      <button class="btn-function" id="btnSave">保存</button>
+      <button class="btn-function" id="btnHelp">ヘルプ</button>
+      <button class="btn-function" id="btnPreviewOutput">PDF・HTML出力</button>
+      <button class="btn-function" id="btnPrintOut">印刷</button>
+      <h3 id="title_h3_1">編集</h3>
+      <div id="editor" class="editor-div" style="min-height: 650px"></div>
+      <footer class="footer"></footer>
+    </div>
+  
+    <div class="preview-area">
+      <h5 class="title_h5 light-theme", id="insert">挿入&クリップボードコピー</h5>
+      <button class="btn-text-copy" id="btnCopyClipBoard1" value="# " data-bs-toggle="tooltip"
+      data-bs-placement="top" title="見出し1">#</button>
+    <button class="btn-text-copy" id="btnCopyClipBoard2" value="## " data-bs-toggle="tooltip"
+      data-bs-placement="top" title="見出し2">##</button>
+    <button class="btn-text-copy" id="btnCopyClipBoard3" value="**" data-bs-toggle="tooltip"
+      data-bs-placement="top" title="太字強調">**</button>
+    <button class="btn-text-copy" id="btnCopyClipBoard4" value="```" data-bs-toggle="tooltip"
+      data-bs-placement="top" title="背景強調">```</button>
+    <button class="btn-text-copy" id="btnCopyClipBoard5" value="|  |" data-bs-toggle="tooltip"
+      data-bs-placement="top" title="テーブルヘッダー">| |</button>
+    <button class="btn-text-copy" id="btnCopyClipBoard6" value="| --- |" data-bs-toggle="tooltip"
+      data-bs-placement="top" title="テーブル区切り">| --- |</button>
+    <button class="btn-text-copy" id="btnCopyClipBoard7" value="- " data-bs-toggle="tooltip"
+      data-bs-placement="top" title="・箇条書き">-</button>
+    <button class="btn-text-copy" id="btnCopyClipBoard8" value="1. " data-bs-toggle="tooltip"
+      data-bs-placement="top" title="数値箇条書き">1.</button>
+    <button class="btn-text-copy" id="btnCopyClipBoard9" value="> " data-bs-toggle="tooltip"
+      data-bs-placement="top" title="引用1">></button>
+    <button class="btn-text-copy" id="btnCopyClipBoard10" value=">> " data-bs-toggle="tooltip"
+      data-bs-placement="top" title="引用2">>></button>
+    <button class="btn-text-copy" id="btnCopyClipBoard11" value="~~" data-bs-toggle="tooltip"
+      data-bs-placement="top" title="打消し線">~~</button>
+    <button class="btn-text-copy" id="btnCopyClipBoard12" data-bs-toggle="tooltip" data-bs-placement="top"
+      title="チェックボックス">- [x]</button>
+    <button class="btn-text-copy" id="btnCopyClipBoard13" data-bs-toggle="tooltip" data-bs-placement="top"
+      title="改ページ">↲</button>
+    <button class="btn-text-copy" id="btnCopyClipBoard14" data-bs-toggle="tooltip" data-bs-placement="top"
+      title="折りたたみ※出力時は非表示">▶</button>
+    <button class="btn-text-copy" id="btnCopyClipBoard15" data-bs-toggle="tooltip" data-bs-placement="top"
+      title="画像">📷</button>
+      <h3 id="title_h3_2">プレビュー</h3>
+      <div style="max-height: 650px;" id="result" class="result-div"></div>
+    </div>
+  </div>
+</body>
+<script type="module" src="./renderer.js"></script>
+</html>

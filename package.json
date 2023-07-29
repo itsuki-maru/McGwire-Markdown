@@ -1,0 +1,50 @@
+{
+  "name": "mcgwire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.example.yourapp",
+    "mac": {
+      "category": "your.app.category.type"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "./src/assets/icon.png",
+      "fileAssociations": [
+        {
+          "ext": "md",
+          "description": "Markdown files",
+          "name": "McGwire",
+          "role": "Editor"
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ]
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ace-builds": "^1.23.1",
+    "electron": "^25.2.0",
+    "electron-builder": "^24.4.0",
+    "license-checker": "^25.0.1",
+    "marked": "^5.1.1",
+    "shepherd.js": "^11.1.1"
+  }
+}
