@@ -20,8 +20,8 @@
 ### the Development Environment
 
 ```shell
-git clone https://github.com/itsuki-maru/McGwire.git
-cd McGwire
+git clone https://github.com/itsuki-maru/McGwire-Markdown.git
+cd McGwire-Markdown
 npm install
 electron .
 ```
