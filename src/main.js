@@ -3,6 +3,7 @@ const fs = require("fs");
 const os = require("os");
 const electron = require("electron");
 const { BrowserWindow, ipcMain, dialog, clipboard, screen } = electron;
+const iconv = require("iconv-lite");
 const htmlTemplate = require("./js/htmlTemplate");
 const appLang = require("./js/mainLang");
 
@@ -496,7 +497,12 @@ async function csvToMarkdownTable() {
     const filePath = result.filePaths[0];
 
     // ファイルを読み込みパスとテキストデータを返却
-    let csvContent = fs.readFileSync(filePath, "utf8");
+    let csvContent;
+    try {
+      csvContent = readCsvWithEncoding(filePath, "utf-8");
+    } catch (e) {
+      csvContent = readCsvWithEncoding(filePath, "shift_jis");
+    }
     // Windowsの改行コードをUnixの改行コードに変換
     csvContent = csvContent.replace(/\r\n/g, "\n");
     const lines = csvContent.trim().split("\n");
@@ -511,3 +517,11 @@ async function csvToMarkdownTable() {
   // ファイルが選択されなかった場合はnullを返却
   return null;
 };
+
+/** エンコーディングを指定してCSVファイルを読み込む関数
+ *  csvToMarkdownTableにてWindowsのShift-jisを吸収するために使用
+ */
+function readCsvWithEncoding(path, encoding) {
+  const buffer = fs.readFileSync(path);
+  return iconv.decode(buffer, encoding);
+}
