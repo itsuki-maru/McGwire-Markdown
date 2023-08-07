@@ -151,6 +151,7 @@ ipcMain.handle("ossLicensesTo", ossLicensesTo);
 ipcMain.handle("getPictureFilePath", getPictureFilePath);
 ipcMain.handle("saveSettings", saveSettings);
 ipcMain.handle("loadSettings", loadSettings);
+ipcMain.handle("csvToMarkdownTable", csvToMarkdownTable);
 
 
 /** アプリケーションの設定ファイルを保存 */
@@ -473,3 +474,40 @@ async function getPictureFilePath() {
   // ファイルが選択されなかった場合はnullを返却
   return null;
 }
+
+/** CSVファイルを読み込みマークダウン形式のテキストに変換 */
+async function csvToMarkdownTable() {
+  const win = BrowserWindow.getFocusedWindow();
+  const result = await dialog.showOpenDialog(
+    win,
+    {
+      properties: ["openFile"],
+      filters: [
+        {
+          name: "CSV",
+          extensions: ["csv"],
+        },
+      ],
+    }
+  );
+
+  // ダイアログをクローズボタンで閉じられた際の処理
+  if (result.filePaths.length > 0) {
+    const filePath = result.filePaths[0];
+
+    // ファイルを読み込みパスとテキストデータを返却
+    let csvContent = fs.readFileSync(filePath, "utf8");
+    // Windowsの改行コードをUnixの改行コードに変換
+    csvContent = csvContent.replace(/\r\n/g, "\n");
+    const lines = csvContent.trim().split("\n");
+    // タイトル部分
+    const header = `| ${lines[0].split(",").join(" | ")} |`;
+    // 区切り部分
+    const divider = lines[0].split(",").map(() => "----").join(" | ");
+    // 内容部分
+    const rows = lines.slice(1).map(line => `| ${line.split(",").join(" | ")} |`).join("\n");
+    return `${header}\n| ${divider} |\n${rows}`;
+  }
+  // ファイルが選択されなかった場合はnullを返却
+  return null;
+};

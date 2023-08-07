@@ -170,6 +170,9 @@ document.querySelector("#btnCopyClipBoard14").addEventListener("click", () => {
 document.querySelector("#btnCopyClipBoard15").addEventListener("click", () => {
   getPictureFilePath();
 });
+document.querySelector("#btnCopyClipBoard16").addEventListener("click", () => {
+  csvToMarkdownTable();
+});
 
 
 /** OPEN FILE */
@@ -248,6 +251,15 @@ async function getPictureFilePath() {
   }
   copyClipBoard(text);
   insertClipBoard(text);
+};
+
+/** CSV TO MARKDOWN TEXT */
+async function csvToMarkdownTable() {
+  const text = await window.myApp.csvToMarkdownTable();
+  if (text) {
+    copyClipBoard(text);
+    insertClipBoard(text);
+  }
 };
 
 /** SAVE THEME SETTINGS */

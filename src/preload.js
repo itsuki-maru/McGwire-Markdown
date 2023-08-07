@@ -60,6 +60,12 @@ contextBridge.exposeInMainWorld("myApp", {
     const result = ipcRenderer.invoke("loadSettings");
     return result;
   },
+
+  /** CSVファイルをマークダウンのテーブル形式に変換 */
+  async csvToMarkdownTable() {
+    const result = await ipcRenderer.invoke("csvToMarkdownTable");
+    return result;
+  }
 });
 
 // メインプロセスからファイル内容を受け取り
