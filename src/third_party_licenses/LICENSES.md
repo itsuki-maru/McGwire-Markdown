@@ -1342,7 +1342,7 @@ This application uses open source software. Here is a list of the open source so
 
 For more details about each license, please follow the repository links.
 
-# McGwire License Version 1.0.0
+# McGwire License Version 1.1.0
 
 ```
 MIT License
