@@ -26,37 +26,29 @@ This application uses open source software. Here is a list of the open source so
   - License: BSD-2-Clause
   - Repository: `https://github.com/electron/osx-sign`
 
-- `@electron/rebuild@3.2.13`
-  - License: MIT
-  - Repository: `https://github.com/electron/rebuild`
-
 - `@electron/universal@1.3.4`
   - License: MIT
   - Repository: `https://github.com/electron/universal`
 
-- `@isaacs/cliui@8.0.2`
-  - License: ISC
-  - Repository: `https://github.com/yargs/cliui`
+- `@floating-ui/core@1.4.0`
+  - License: MIT
+  - Repository: `https://github.com/floating-ui/floating-ui`
+
+- `@floating-ui/dom@1.5.0`
+  - License: MIT
+  - Repository: `https://github.com/floating-ui/floating-ui`
+
+- `@floating-ui/utils@0.1.0`
+  - License: MIT
+  - Repository: `https://github.com/floating-ui/floating-ui`
 
 - `@malept/cross-spawn-promise@1.1.1`
-  - License: Apache-2.0
-  - Repository: `https://github.com/malept/cross-spawn-promise`
-
-- `@malept/cross-spawn-promise@2.0.0`
   - License: Apache-2.0
   - Repository: `https://github.com/malept/cross-spawn-promise`
 
 - `@malept/flatpak-bundler@0.4.0`
   - License: MIT
   - Repository: `https://github.com/malept/flatpak-bundler`
-
-- `@npmcli/fs@3.1.0`
-  - License: ISC
-  - Repository: `https://github.com/npm/fs`
-
-- `@pkgjs/parseargs@0.11.0`
-  - License: MIT
-  - Repository: `https://github.com/pkgjs/parseargs`
 
 - `@sindresorhus/is@4.6.0`
   - License: MIT
@@ -94,7 +86,7 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/DefinitelyTyped/DefinitelyTyped`
 
-- `@types/node@18.16.19`
+- `@types/node@18.17.1`
   - License: MIT
   - Repository: `https://github.com/DefinitelyTyped/DefinitelyTyped`
 
@@ -106,25 +98,21 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/DefinitelyTyped/DefinitelyTyped`
 
+- `@xmldom/xmldom@0.8.10`
+  - License: MIT
+  - Repository: `https://github.com/xmldom/xmldom`
+
 - `abbrev@1.1.1`
   - License: ISC
   - Repository: `https://github.com/isaacs/abbrev-js`
 
-- `ace-builds@1.23.1`
+- `ace-builds@1.23.4`
   - License: BSD-3-Clause
   - Repository: `https://github.com/ajaxorg/ace-builds`
 
 - `agent-base@6.0.2`
   - License: MIT
   - Repository: `https://github.com/TooTallNate/node-agent-base`
-
-- `agentkeepalive@4.3.0`
-  - License: MIT
-  - Repository: `https://github.com/node-modules/agentkeepalive`
-
-- `aggregate-error@3.1.0`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/aggregate-error`
 
 - `ajv-keywords@3.5.2`
   - License: MIT
@@ -138,10 +126,6 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/chalk/ansi-regex`
 
-- `ansi-regex@6.0.1`
-  - License: MIT
-  - Repository: `https://github.com/chalk/ansi-regex`
-
 - `ansi-styles@3.2.1`
   - License: MIT
   - Repository: `https://github.com/chalk/ansi-styles`
@@ -150,25 +134,13 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/chalk/ansi-styles`
 
-- `ansi-styles@6.2.1`
-  - License: MIT
-  - Repository: `https://github.com/chalk/ansi-styles`
-
 - `app-builder-bin@4.0.0`
   - License: MIT
   - Repository: `https://github.com/develar/app-builder`
 
-- `app-builder-lib@24.4.0`
+- `app-builder-lib@24.6.3`
   - License: MIT
   - Repository: `https://github.com/electron-userland/electron-builder`
-
-- `aproba@2.0.0`
-  - License: ISC
-  - Repository: `https://github.com/iarna/aproba`
-
-- `are-we-there-yet@3.0.1`
-  - License: ISC
-  - Repository: `https://github.com/npm/are-we-there-yet`
 
 - `argparse@2.0.1`
   - License: Python-2.0
@@ -206,10 +178,6 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/beatgammit/base64-js`
 
-- `bl@4.1.0`
-  - License: MIT
-  - Repository: `https://github.com/rvagg/bl`
-
 - `bluebird-lst@1.0.9`
   - License: MIT
   - Repository: `https://github.com/develar/fs-extra-p`
@@ -242,21 +210,13 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/LinusU/buffer-from`
 
-- `buffer@5.7.1`
-  - License: MIT
-  - Repository: `https://github.com/feross/buffer`
-
 - `builder-util-runtime@9.2.1`
   - License: MIT
   - Repository: `https://github.com/electron-userland/electron-builder`
 
-- `builder-util@24.4.0`
+- `builder-util@24.5.0`
   - License: MIT
   - Repository: `https://github.com/electron-userland/electron-builder`
-
-- `cacache@17.1.3`
-  - License: ISC
-  - Repository: `https://github.com/npm/cacache`
 
 - `cacheable-lookup@5.0.4`
   - License: MIT
@@ -286,18 +246,6 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/watson/ci-info`
 
-- `clean-stack@2.2.0`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/clean-stack`
-
-- `cli-cursor@3.1.0`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/cli-cursor`
-
-- `cli-spinners@2.9.0`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/cli-spinners`
-
 - `cliui@8.0.1`
   - License: ISC
   - Repository: `https://github.com/yargs/cliui`
@@ -305,10 +253,6 @@ This application uses open source software. Here is a list of the open source so
 - `clone-response@1.0.3`
   - License: MIT
   - Repository: `https://github.com/sindresorhus/clone-response`
-
-- `clone@1.0.4`
-  - License: MIT
-  - Repository: `https://github.com/pvorb/node-clone`
 
 - `color-convert@1.9.3`
   - License: MIT
@@ -325,10 +269,6 @@ This application uses open source software. Here is a list of the open source so
 - `color-name@1.1.4`
   - License: MIT
   - Repository: `https://github.com/colorjs/color-name`
-
-- `color-support@1.1.3`
-  - License: ISC
-  - Repository: `https://github.com/isaacs/color-support`
 
 - `combined-stream@1.0.8`
   - License: MIT
@@ -350,10 +290,6 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/mighdoll/config-file-ts`
 
-- `console-control-strings@1.1.0`
-  - License: ISC
-  - Repository: `https://github.com/iarna/console-control-strings`
-
 - `cross-spawn@7.0.3`
   - License: MIT
   - Repository: `https://github.com/moxystudio/node-cross-spawn`
@@ -374,9 +310,9 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/sindresorhus/decompress-response`
 
-- `defaults@1.0.4`
+- `deepmerge@4.3.1`
   - License: MIT
-  - Repository: `https://github.com/sindresorhus/node-defaults`
+  - Repository: `https://github.com/TehShrike/deepmerge`
 
 - `defer-to-connect@2.0.1`
   - License: MIT
@@ -390,18 +326,6 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/felixge/node-delayed-stream`
 
-- `delegates@1.0.0`
-  - License: MIT
-  - Repository: `https://github.com/visionmedia/node-delegates`
-
-- `depd@2.0.0`
-  - License: MIT
-  - Repository: `https://github.com/dougwilson/nodejs-depd`
-
-- `detect-libc@2.0.1`
-  - License: Apache-2.0
-  - Repository: `https://github.com/lovell/detect-libc`
-
 - `detect-node@2.1.0`
   - License: MIT
   - Repository: `https://github.com/iliakan/detect-node`
@@ -414,7 +338,7 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/gliviu/dir-compare`
 
-- `dmg-builder@24.4.0`
+- `dmg-builder@24.6.3`
   - License: MIT
   - Repository: `https://github.com/electron-userland/electron-builder`
 
@@ -426,37 +350,25 @@ This application uses open source software. Here is a list of the open source so
   - License: BSD-2-Clause
   - Repository: `https://github.com/motdotla/dotenv`
 
-- `eastasianwidth@0.2.0`
-  - License: MIT
-  - Repository: `https://github.com/komagata/eastasianwidth`
-
 - `ejs@3.1.9`
   - License: Apache-2.0
   - Repository: `https://github.com/mde/ejs`
 
-- `electron-builder@24.4.0`
+- `electron-builder@24.6.3`
   - License: MIT
   - Repository: `https://github.com/electron-userland/electron-builder`
 
-- `electron-publish@24.4.0`
+- `electron-publish@24.5.0`
   - License: MIT
   - Repository: `https://github.com/electron-userland/electron-builder`
 
-- `electron@25.2.0`
+- `electron@25.3.2`
   - License: MIT
   - Repository: `https://github.com/electron/electron`
 
 - `emoji-regex@8.0.0`
   - License: MIT
   - Repository: `https://github.com/mathiasbynens/emoji-regex`
-
-- `emoji-regex@9.2.2`
-  - License: MIT
-  - Repository: `https://github.com/mathiasbynens/emoji-regex`
-
-- `encoding@0.1.13`
-  - License: MIT
-  - Repository: `https://github.com/andris9/encoding`
 
 - `end-of-stream@1.4.4`
   - License: MIT
@@ -465,10 +377,6 @@ This application uses open source software. Here is a list of the open source so
 - `env-paths@2.2.1`
   - License: MIT
   - Repository: `https://github.com/sindresorhus/env-paths`
-
-- `err-code@2.0.3`
-  - License: MIT
-  - Repository: `https://github.com/IndigoUnited/js-err-code`
 
 - `es6-error@4.1.1`
   - License: MIT
@@ -485,10 +393,6 @@ This application uses open source software. Here is a list of the open source so
 - `escape-string-regexp@4.0.0`
   - License: MIT
   - Repository: `https://github.com/sindresorhus/escape-string-regexp`
-
-- `exponential-backoff@3.1.1`
-  - License: Apache-2.0
-  - Repository: `https://github.com/coveo/exponential-backoff`
 
 - `extract-zip@2.0.1`
   - License: BSD-2-Clause
@@ -510,10 +414,6 @@ This application uses open source software. Here is a list of the open source so
   - License: Apache-2.0
   - Repository: `https://github.com/mde/filelist`
 
-- `foreground-child@3.1.1`
-  - License: ISC
-  - Repository: `https://github.com/tapjs/foreground-child`
-
 - `form-data@4.0.0`
   - License: MIT
   - Repository: `https://github.com/form-data/form-data`
@@ -534,10 +434,6 @@ This application uses open source software. Here is a list of the open source so
   - License: ISC
   - Repository: `https://github.com/npm/fs-minipass`
 
-- `fs-minipass@3.0.2`
-  - License: ISC
-  - Repository: `https://github.com/npm/fs-minipass`
-
 - `fs.realpath@1.0.0`
   - License: ISC
   - Repository: `https://github.com/isaacs/fs.realpath`
@@ -545,10 +441,6 @@ This application uses open source software. Here is a list of the open source so
 - `function-bind@1.1.1`
   - License: MIT
   - Repository: `https://github.com/Raynos/function-bind`
-
-- `gauge@4.0.4`
-  - License: ISC
-  - Repository: `https://github.com/npm/gauge`
 
 - `get-caller-file@2.0.5`
   - License: ISC
@@ -561,10 +453,6 @@ This application uses open source software. Here is a list of the open source so
 - `get-stream@5.2.0`
   - License: MIT
   - Repository: `https://github.com/sindresorhus/get-stream`
-
-- `glob@10.3.1`
-  - License: ISC
-  - Repository: `https://github.com/isaacs/node-glob`
 
 - `glob@7.2.3`
   - License: ISC
@@ -606,10 +494,6 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/inspect-js/has-symbols`
 
-- `has-unicode@2.0.1`
-  - License: ISC
-  - Repository: `https://github.com/iarna/has-unicode`
-
 - `has@1.0.3`
   - License: MIT
   - Repository: `https://github.com/tarruda/has`
@@ -638,25 +522,9 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/TooTallNate/node-https-proxy-agent`
 
-- `humanize-ms@1.2.1`
-  - License: MIT
-  - Repository: `https://github.com/node-modules/humanize-ms`
-
 - `iconv-lite@0.6.3`
   - License: MIT
   - Repository: `https://github.com/ashtuchkin/iconv-lite`
-
-- `ieee754@1.2.1`
-  - License: BSD-3-Clause
-  - Repository: `https://github.com/feross/ieee754`
-
-- `imurmurhash@0.1.4`
-  - License: MIT
-  - Repository: `https://github.com/jensyt/imurmurhash-js`
-
-- `indent-string@4.0.0`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/indent-string`
 
 - `inflight@1.0.6`
   - License: ISC
@@ -665,10 +533,6 @@ This application uses open source software. Here is a list of the open source so
 - `inherits@2.0.4`
   - License: ISC
   - Repository: `https://github.com/isaacs/inherits`
-
-- `ip@2.0.0`
-  - License: MIT
-  - Repository: `https://github.com/indutny/node-ip`
 
 - `is-ci@3.0.1`
   - License: MIT
@@ -682,18 +546,6 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/sindresorhus/is-fullwidth-code-point`
 
-- `is-interactive@1.0.0`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/is-interactive`
-
-- `is-lambda@1.0.1`
-  - License: MIT
-  - Repository: `https://github.com/watson/is-lambda`
-
-- `is-unicode-supported@0.1.0`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/is-unicode-supported`
-
 - `isbinaryfile@4.0.10`
   - License: MIT
   - Repository: `https://github.com/gjtorikian/isBinaryFile`
@@ -705,10 +557,6 @@ This application uses open source software. Here is a list of the open source so
 - `isexe@2.0.0`
   - License: ISC
   - Repository: `https://github.com/isaacs/isexe`
-
-- `jackspeak@2.2.1`
-  - License: BlueOak-1.0.0
-  - Repository: `https://github.com/isaacs/jackspeak`
 
 - `jake@10.8.7`
   - License: Apache-2.0
@@ -746,7 +594,7 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/jprichardson/node-jsonfile`
 
-- `keyv@4.5.2`
+- `keyv@4.5.3`
   - License: MIT
   - Repository: `https://github.com/jaredwray/keyv`
 
@@ -762,31 +610,15 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/lodash/lodash`
 
-- `log-symbols@4.1.0`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/log-symbols`
-
 - `lowercase-keys@2.0.0`
   - License: MIT
   - Repository: `https://github.com/sindresorhus/lowercase-keys`
-
-- `lru-cache@10.0.0`
-  - License: ISC
-  - Repository: `https://github.com/isaacs/node-lru-cache`
 
 - `lru-cache@6.0.0`
   - License: ISC
   - Repository: `https://github.com/isaacs/node-lru-cache`
 
-- `lru-cache@7.18.3`
-  - License: ISC
-  - Repository: `https://github.com/isaacs/node-lru-cache`
-
-- `make-fetch-happen@11.1.1`
-  - License: ISC
-  - Repository: `https://github.com/npm/make-fetch-happen`
-
-- `marked@5.1.1`
+- `marked@5.1.2`
   - License: MIT
   - Repository: `https://github.com/markedjs/marked`
 
@@ -794,7 +626,7 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/sindresorhus/matcher`
 
-- `mcgwire@3.5.1`
+- `mcgwire@1.1.0`
   - License: ISC
   - Repository: `undefined`
 
@@ -809,10 +641,6 @@ This application uses open source software. Here is a list of the open source so
 - `mime@2.6.0`
   - License: MIT
   - Repository: `https://github.com/broofa/mime`
-
-- `mimic-fn@2.1.0`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/mimic-fn`
 
 - `mimic-response@1.0.1`
   - License: MIT
@@ -830,33 +658,9 @@ This application uses open source software. Here is a list of the open source so
   - License: ISC
   - Repository: `https://github.com/isaacs/minimatch`
 
-- `minimatch@9.0.2`
-  - License: ISC
-  - Repository: `https://github.com/isaacs/minimatch`
-
 - `minimist@1.2.8`
   - License: MIT
   - Repository: `https://github.com/minimistjs/minimist`
-
-- `minipass-collect@1.0.2`
-  - License: ISC
-  - Repository: `undefined`
-
-- `minipass-fetch@3.0.3`
-  - License: MIT
-  - Repository: `https://github.com/npm/minipass-fetch`
-
-- `minipass-flush@1.0.5`
-  - License: ISC
-  - Repository: `https://github.com/isaacs/minipass-flush`
-
-- `minipass-pipeline@1.2.4`
-  - License: ISC
-  - Repository: `undefined`
-
-- `minipass-sized@1.0.3`
-  - License: ISC
-  - Repository: `https://github.com/isaacs/minipass-sized`
 
 - `minipass@3.3.6`
   - License: ISC
@@ -882,27 +686,7 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/zeit/ms`
 
-- `negotiator@0.6.3`
-  - License: MIT
-  - Repository: `https://github.com/jshttp/negotiator`
-
-- `node-abi@3.45.0`
-  - License: MIT
-  - Repository: `https://github.com/electron/node-abi`
-
-- `node-api-version@0.1.4`
-  - License: MIT
-  - Repository: `https://github.com/timfish/node-api-version`
-
-- `node-gyp@9.4.0`
-  - License: MIT
-  - Repository: `https://github.com/nodejs/node-gyp`
-
 - `nopt@4.0.3`
-  - License: ISC
-  - Repository: `https://github.com/npm/nopt`
-
-- `nopt@6.0.0`
   - License: ISC
   - Repository: `https://github.com/npm/nopt`
 
@@ -918,10 +702,6 @@ This application uses open source software. Here is a list of the open source so
   - License: ISC
   - Repository: `https://github.com/npm/npm-normalize-package-bin`
 
-- `npmlog@6.0.2`
-  - License: ISC
-  - Repository: `https://github.com/npm/npmlog`
-
 - `object-keys@1.1.1`
   - License: MIT
   - Repository: `https://github.com/ljharb/object-keys`
@@ -929,14 +709,6 @@ This application uses open source software. Here is a list of the open source so
 - `once@1.4.0`
   - License: ISC
   - Repository: `https://github.com/isaacs/once`
-
-- `onetime@5.1.2`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/onetime`
-
-- `ora@5.4.1`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/ora`
 
 - `os-homedir@1.0.2`
   - License: MIT
@@ -954,10 +726,6 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/sindresorhus/p-cancelable`
 
-- `p-map@4.0.0`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/p-map`
-
 - `path-is-absolute@1.0.1`
   - License: MIT
   - Repository: `https://github.com/sindresorhus/path-is-absolute`
@@ -970,25 +738,17 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/jbgutierrez/path-parse`
 
-- `path-scurry@1.10.0`
-  - License: BlueOak-1.0.0
-  - Repository: `https://github.com/isaacs/path-scurry`
-
 - `pend@1.2.0`
   - License: MIT
   - Repository: `https://github.com/andrewrk/node-pend`
 
-- `plist@3.0.6`
+- `plist@3.1.0`
   - License: MIT
   - Repository: `https://github.com/TooTallNate/node-plist`
 
 - `progress@2.0.3`
   - License: MIT
   - Repository: `https://github.com/visionmedia/node-progress`
-
-- `promise-retry@2.0.1`
-  - License: MIT
-  - Repository: `https://github.com/IndigoUnited/node-promise-retry`
 
 - `pump@3.0.0`
   - License: MIT
@@ -1014,10 +774,6 @@ This application uses open source software. Here is a list of the open source so
   - License: ISC
   - Repository: `https://github.com/npm/read-package-json`
 
-- `readable-stream@3.6.2`
-  - License: MIT
-  - Repository: `https://github.com/nodejs/readable-stream`
-
 - `readdir-scoped-modules@1.1.0`
   - License: ISC
   - Repository: `https://github.com/npm/readdir-scoped-modules`
@@ -1038,14 +794,6 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/sindresorhus/responselike`
 
-- `restore-cursor@3.1.0`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/restore-cursor`
-
-- `retry@0.12.0`
-  - License: MIT
-  - Repository: `https://github.com/tim-kos/node-retry`
-
 - `rimraf@3.0.2`
   - License: ISC
   - Repository: `https://github.com/isaacs/rimraf`
@@ -1053,10 +801,6 @@ This application uses open source software. Here is a list of the open source so
 - `roarr@2.15.4`
   - License: BSD-3-Clause
   - Repository: `https://github.com/gajus/roarr`
-
-- `safe-buffer@5.2.1`
-  - License: MIT
-  - Repository: `https://github.com/feross/safe-buffer`
 
 - `safer-buffer@2.1.2`
   - License: MIT
@@ -1074,29 +818,21 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/substack/semver-compare`
 
-- `semver@5.7.1`
+- `semver@5.7.2`
   - License: ISC
   - Repository: `https://github.com/npm/node-semver`
 
-- `semver@6.3.0`
+- `semver@6.3.1`
   - License: ISC
   - Repository: `https://github.com/npm/node-semver`
 
-- `semver@7.0.0`
-  - License: ISC
-  - Repository: `https://github.com/npm/node-semver`
-
-- `semver@7.5.3`
+- `semver@7.5.4`
   - License: ISC
   - Repository: `https://github.com/npm/node-semver`
 
 - `serialize-error@7.0.1`
   - License: MIT
   - Repository: `https://github.com/sindresorhus/serialize-error`
-
-- `set-blocking@2.0.0`
-  - License: ISC
-  - Repository: `https://github.com/yargs/set-blocking`
 
 - `shebang-command@2.0.0`
   - License: MIT
@@ -1110,33 +846,13 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/shipshapecode/shepherd`
 
-- `signal-exit@3.0.7`
-  - License: ISC
-  - Repository: `https://github.com/tapjs/signal-exit`
-
-- `signal-exit@4.0.2`
-  - License: ISC
-  - Repository: `https://github.com/tapjs/signal-exit`
-
-- `simple-update-notifier@1.1.0`
+- `simple-update-notifier@2.0.0`
   - License: MIT
   - Repository: `https://github.com/alexbrazier/simple-update-notifier`
 
 - `slide@1.1.6`
   - License: ISC
   - Repository: `https://github.com/isaacs/slide-flow-control`
-
-- `smart-buffer@4.2.0`
-  - License: MIT
-  - Repository: `https://github.com/JoshGlazebrook/smart-buffer`
-
-- `socks-proxy-agent@7.0.0`
-  - License: MIT
-  - Repository: `https://github.com/TooTallNate/node-socks-proxy-agent`
-
-- `socks@2.7.1`
-  - License: MIT
-  - Repository: `https://github.com/JoshGlazebrook/socks`
 
 - `source-map-support@0.5.21`
   - License: MIT
@@ -1178,10 +894,6 @@ This application uses open source software. Here is a list of the open source so
   - License: BSD-3-Clause
   - Repository: `https://github.com/alexei/sprintf.js`
 
-- `ssri@10.0.4`
-  - License: ISC
-  - Repository: `https://github.com/npm/ssri`
-
 - `stat-mode@1.0.0`
   - License: MIT
   - Repository: `https://github.com/TooTallNate/stat-mode`
@@ -1190,19 +902,7 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/sindresorhus/string-width`
 
-- `string-width@5.1.2`
-  - License: MIT
-  - Repository: `https://github.com/sindresorhus/string-width`
-
-- `string_decoder@1.3.0`
-  - License: MIT
-  - Repository: `https://github.com/nodejs/string_decoder`
-
 - `strip-ansi@6.0.1`
-  - License: MIT
-  - Repository: `https://github.com/chalk/strip-ansi`
-
-- `strip-ansi@7.1.0`
   - License: MIT
   - Repository: `https://github.com/chalk/strip-ansi`
 
@@ -1254,14 +954,6 @@ This application uses open source software. Here is a list of the open source so
   - License: Apache-2.0
   - Repository: `https://github.com/Microsoft/TypeScript`
 
-- `unique-filename@3.0.0`
-  - License: ISC
-  - Repository: `https://github.com/npm/unique-filename`
-
-- `unique-slug@4.0.0`
-  - License: ISC
-  - Repository: `https://github.com/npm/unique-slug`
-
 - `universalify@0.1.2`
   - License: MIT
   - Repository: `https://github.com/RyanZim/universalify`
@@ -1278,10 +970,6 @@ This application uses open source software. Here is a list of the open source so
   - License: WTFPL
   - Repository: `https://github.com/parshap/utf8-byte-length`
 
-- `util-deprecate@1.0.2`
-  - License: MIT
-  - Repository: `https://github.com/TooTallNate/util-deprecate`
-
 - `util-extend@1.0.3`
   - License: MIT
   - Repository: `https://github.com/isaacs/util-extend`
@@ -1290,23 +978,11 @@ This application uses open source software. Here is a list of the open source so
   - License: Apache-2.0
   - Repository: `https://github.com/kemitchell/validate-npm-package-license.js`
 
-- `wcwidth@1.0.1`
-  - License: MIT
-  - Repository: `https://github.com/timoxley/wcwidth`
-
 - `which@2.0.2`
   - License: ISC
   - Repository: `https://github.com/isaacs/node-which`
 
-- `wide-align@1.1.5`
-  - License: ISC
-  - Repository: `https://github.com/iarna/wide-align`
-
 - `wrap-ansi@7.0.0`
-  - License: MIT
-  - Repository: `https://github.com/chalk/wrap-ansi`
-
-- `wrap-ansi@8.1.0`
   - License: MIT
   - Repository: `https://github.com/chalk/wrap-ansi`
 
@@ -1341,8 +1017,6 @@ This application uses open source software. Here is a list of the open source so
 ... (and so on for each package)
 
 For more details about each license, please follow the repository links.
-
-# McGwire License Version 1.1.0
 
 ```
 MIT License
