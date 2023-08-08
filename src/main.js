@@ -24,7 +24,7 @@ async function appLangInit() {
 };
 appLangInit();
 
-/** アプリケーションメインウィンドウ */
+// アプリケーションメインウィンドウ
 function createWindow() {
   // 画面サイズを取得
   let mainScreen = screen.getPrimaryDisplay();
@@ -72,10 +72,10 @@ function createWindow() {
   });
 };
 
-/** 初期化完了時にメインウィンドウを起動 */
+// 初期化完了時にメインウィンドウを起動
 app.on("ready", createWindow);
 
-/** 全ウィンドウがクローズ時にappを終了 */
+// 全ウィンドウがクローズ時にappを終
 app.on("window-all-closed", () => {
   // macOS以外のOS
   if (process.platform !== "darwin") {
@@ -83,7 +83,7 @@ app.on("window-all-closed", () => {
   }
 });
 
-/** アプリケーションのアクティベート時の処理 */
+// アプリケーションのアクティベート時の処理
 app.on("activate", () => {
   if (mainWindow === null) {
     createWindow();
@@ -91,7 +91,7 @@ app.on("activate", () => {
 });
 
 
-/** 2つ以上アプリが起動しないように制御 */
+// 2つ以上アプリが起動しないように制御
 const gotTheLock = app.requestSingleInstanceLock();
 if (!gotTheLock) {
   app.quit();
@@ -107,7 +107,7 @@ if (!gotTheLock) {
   })
 }
 
-/** アプリに関連付けられたファイルからの起動処理 */
+// アプリに関連付けられたファイルからの起動処理
 app.on("will-finish-launching", () => {
   // アプリアイコンにドロップ時
   app.on("open-file", (event, filePath) => {
@@ -141,7 +141,7 @@ app.on("will-finish-launching", () => {
 })
 
 
-/** レンダラープロセスとの連携を定義 */
+// レンダラープロセスとの連携を定義
 ipcMain.handle("openFile", openFile);
 ipcMain.handle("saveFile", saveFile);
 ipcMain.handle("openPreviewWindow", openPreviewWindow);
@@ -155,7 +155,13 @@ ipcMain.handle("loadSettings", loadSettings);
 ipcMain.handle("csvToMarkdownTable", csvToMarkdownTable);
 
 
-/** アプリケーションの設定ファイルを保存 */
+/** 
+ *  アプリケーションの設定ファイルを保存
+ *  @param {*} event
+ *  @param {string} theme
+ *  @param {string} language
+ *  @returns {string}
+ */
 async function saveSettings(event, theme, language) {
   const settings = await loadSettings();
   if (theme === "") {
@@ -168,7 +174,10 @@ async function saveSettings(event, theme, language) {
 };
 
 
-/** アプリケーションの設定ファイルを読み込み */
+/**
+ *  アプリケーションの設定ファイルを読み込み
+ *  @returns {Object} - settings = {theme: theme, language: language}
+ */
 async function loadSettings() {
   // 設定ファイルがすでに存在する場合
   if (fs.existsSync(settingPath)) {
@@ -183,7 +192,10 @@ async function loadSettings() {
 };
 
 
-/** ファイルオープン処理 */
+/**
+ *  ファイルオープン処理
+ *  @returns {string, string|null} - { filePath, textData} か nullを返却
+ */
 async function openFile() {
   const win = BrowserWindow.getFocusedWindow();
   const result = await dialog.showOpenDialog(
@@ -214,7 +226,10 @@ async function openFile() {
   return null;
 }
 
-/** ファイル保存処理 */
+/** 
+ * ファイル保存処理
+ *  @returns {string|null} - { filePath: saveFilePath} か nullを返却
+ */
 async function saveFile(event, currentPath, textData) {
   let saveFilePath;
   if (currentPath) {
@@ -248,8 +263,13 @@ async function saveFile(event, currentPath, textData) {
   return { filePath: saveFilePath };
 }
 
-/** PDF出力処理
- *  ChromiumブラウザのPDF出力APIを使用
+/** 
+ * PDF出力処理
+ * ChromiumブラウザのPDF出力APIを使用
+ * @param {Electron.event} event
+ * @param {string} html
+ * @param {string} filePath
+ * @returns {string}
  */
 async function openPreviewWindow(event, html, filePath) {
   // openPreviewWindowによって開かれた非表示のウィンドウがすでに存在する場合はクローズ
@@ -364,7 +384,10 @@ async function openPreviewWindow(event, html, filePath) {
   return "openPreviewWindow function end.";
 }
 
-/** 印刷 */
+/** 
+ * 印刷処理
+ * @returns {string} 
+ */
 async function printOut(event, html) {
   // HTMLが空文字である場合
   if (html === "") {
@@ -408,7 +431,10 @@ async function printOut(event, html) {
   return "Print Out Ok."
 }
 
-/** ヘルプウィンドウの起動 */
+/**
+ * ヘルプウィンドウの起動
+ * @returns {string}
+ */
 async function howTo() {
   let howtoWin = new BrowserWindow({
     width: 950,
@@ -427,7 +453,10 @@ async function howTo() {
 }
 
 
-/** OSSライセンスの表示ウィンドウの起動 */
+/**
+ * OSSライセンスの表示ウィンドウの起動
+ * @returns {string}
+ */
 async function ossLicensesTo() {
   let ossLicensesWin = new BrowserWindow({
     width: 950,
@@ -440,14 +469,22 @@ async function ossLicensesTo() {
   return "Open OSS Licenses."
 }
 
-/** クリップボードへのコピー */
+/**
+ * クリップボードへのコピー
+ * @param {Electron.Event} event 
+ * @param {string} text 
+ * @returns {string}
+ */
 async function copyClipBoard(event, text) {
   clipboard.writeText(text);
   return `${text} Copied Clipboard.`
 }
 
 
-/** 画像ファイルパス取得 */
+/**
+ * 画像ファイルパス取得
+ * @returns {string|null} - 画像パスが取得出来たらstringを返却
+ */
 async function getPictureFilePath() {
   const win = BrowserWindow.getFocusedWindow();
   const result = await dialog.showOpenDialog(
@@ -476,7 +513,11 @@ async function getPictureFilePath() {
   return null;
 }
 
-/** CSVファイルを読み込みマークダウン形式のテキストに変換 */
+/** 
+ * CSVファイルを読み込みマークダウン形式のテキストに変換
+ * readCsvWithEncoding関数に依存
+ * @returns {string|null} - CSVから変換されたテーブル形式のマークダウンかnullを返す
+ */
 async function csvToMarkdownTable() {
   const win = BrowserWindow.getFocusedWindow();
   const result = await dialog.showOpenDialog(
@@ -491,18 +532,36 @@ async function csvToMarkdownTable() {
       ],
     }
   );
-
+  
   // ダイアログをクローズボタンで閉じられた際の処理
   if (result.filePaths.length > 0) {
     const filePath = result.filePaths[0];
 
+    // 文字コードの選択ダイアログ（ユーザーが行う）
+    const options = {
+      type: "question",
+      title: "文字コード",
+      message: "文字コードの確認",
+      detail: "CSVファイルの文字コードを選択してください。\n\n※基本的にはShift-Jisですが、文字化けが起こる場合はUTF-8を選択してください。",
+      buttons: ["Shift-Jis", "UTF-8"],
+      canceled: -1
+    };
+    const selectedCharCode = dialog.showMessageBoxSync(options);
+
     // ファイルを読み込みパスとテキストデータを返却
     let csvContent;
-    try {
-      csvContent = readCsvWithEncoding(filePath, "utf-8");
-    } catch (e) {
-      csvContent = readCsvWithEncoding(filePath, "shift_jis");
+    switch (selectedCharCode) {
+      case -1:
+        csvContent = readCsvWithEncoding(filePath, "shift_jis");
+        break;
+      case 0:
+        csvContent = readCsvWithEncoding(filePath, "utf-8");
+        break;
+      case 1:
+        csvContent = readCsvWithEncoding(filePath, "shift_jis");
+        break;
     }
+
     // Windowsの改行コードをUnixの改行コードに変換
     csvContent = csvContent.replace(/\r\n/g, "\n");
     const lines = csvContent.trim().split("\n");
@@ -518,8 +577,12 @@ async function csvToMarkdownTable() {
   return null;
 };
 
-/** エンコーディングを指定してCSVファイルを読み込む関数
+/** 
+ *  エンコーディングを指定してCSVファイルを読み込む関数
  *  csvToMarkdownTableにてWindowsのShift-jisを吸収するために使用
+ *  @param {string} path
+ *  @param {string} encoding 
+ *  @returns {string}
  */
 function readCsvWithEncoding(path, encoding) {
   const buffer = fs.readFileSync(path);
