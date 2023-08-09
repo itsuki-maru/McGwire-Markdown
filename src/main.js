@@ -555,10 +555,10 @@ async function csvToMarkdownTable() {
         csvContent = readCsvWithEncoding(filePath, "shift_jis");
         break;
       case 0:
-        csvContent = readCsvWithEncoding(filePath, "utf-8");
+        csvContent = readCsvWithEncoding(filePath, "shift_jis");
         break;
       case 1:
-        csvContent = readCsvWithEncoding(filePath, "shift_jis");
+        csvContent = readCsvWithEncoding(filePath, "utf-8");
         break;
     }
 
