@@ -20,6 +20,10 @@ const appLang = {
 
     appPrintOutNoTextMessage: "メッセージ",
     appPrintOutNoTextDetail: "出力するテキストがありません",
+
+    appCsvImportTitle: "文字コード",
+    appCsvImportMessage: "文字コードの確認",
+    appCsvImportDetail: "CSVファイルの文字コードを選択してください。\n\n※基本的にはShift-Jisですが、文字化けが起こる場合はUTF-8を選択してください。",
   },
   en: {
     appExitDialogCancel: "Cancel Back",
@@ -42,6 +46,11 @@ const appLang = {
 
     appPrintOutNoTextMessage: "Message",
     appPrintOutNoTextDetail: "There is no text to output",
+
+    appCsvImportTitle: "Character Encoding",
+    appCsvImportMessage: "Check Character Encoding",
+    appCsvImportDetail: "Please select the character encoding of the CSV file.\n\n※Generally it is Shift-JIS, but if garbled characters occur, please select UTF-8.",
+
   },
 }
 

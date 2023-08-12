@@ -540,9 +540,9 @@ async function csvToMarkdownTable() {
     // 文字コードの選択ダイアログ（ユーザーが行う）
     const options = {
       type: "question",
-      title: "文字コード",
-      message: "文字コードの確認",
-      detail: "CSVファイルの文字コードを選択してください。\n\n※基本的にはShift-Jisですが、文字化けが起こる場合はUTF-8を選択してください。",
+      title: appLang[applicationLang].appCsvImportTitle,
+      message: appLang[applicationLang].appCsvImportMessage,
+      detail: appLang[applicationLang].appCsvImportDetail,
       buttons: ["Shift-Jis", "UTF-8"],
       canceled: -1
     };
