@@ -66,13 +66,13 @@ module.exports = (html) => `<!DOCTYPE html>
     font-size: inherit; }
   
   h1 {
-    font-size: 30px;
+    font-size: 32px;
     margin-top: 0px;
     margin-bottom: 18px;
     color: black; }
   
   h2 {
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 20px;
     border-bottom: 1px solid #cccccc;
     color: black; }
