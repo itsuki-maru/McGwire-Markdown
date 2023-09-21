@@ -77,13 +77,13 @@ html.dark-theme {
 }
 
 .editor-area, .preview-area {
-  width: 47%;
+  width: 49%;
   height: 100%;
   overflow: hidden;
 }
 
 .editor-area {
-  margin-right: 4%;
+  margin-right: 2%;
 }
 
 #result {

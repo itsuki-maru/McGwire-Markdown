@@ -66,7 +66,7 @@ module.exports = (html) => `<!DOCTYPE html>
     font-size: inherit; }
   
   h1 {
-    font-size: 34px;
+    font-size: 30px;
     margin-top: 0px;
     margin-bottom: 18px;
     color: black; }
@@ -78,20 +78,21 @@ module.exports = (html) => `<!DOCTYPE html>
     color: black; }
   
   h3 {
-    font-size: 18px; }
+    font-size: 22px; }
   
   h4 {
-    font-size: 16px; }
+    font-size: 20px; }
   
   h5 {
-    font-size: 14px; }
+    font-size: 18px; }
   
   h6 {
     color: #777777;
-    font-size: 14px; }
-  
+    font-size: 16px; }
+
   p, blockquote, ul, ol, dl, li, table, pre {
-    margin: 15px 0; }
+    margin: 15px 0;
+    font-size: 16px; }
   
   hr {
     background: transparent url("../../images/modules/pulls/dirty-shade.png") repeat-x 0 0;
