@@ -42,6 +42,7 @@ element.addEventListener("keyup", handleChange);
 let isEditorScrolling = false;
 let isPreviewScrolling = false;
 // editorからpreviewへのスクロールの同期
+// previewからeditorの同期は不可（画像の差分を微調整するため）
 editor.getSession().on("changeScrollTop", function() {
     if (isPreviewScrolling) return;
     const editorScroll = editor.getSession().getScrollTop();
@@ -52,19 +53,6 @@ editor.getSession().on("changeScrollTop", function() {
     isEditorScrolling = true;
     preview.scrollTop = (editorScroll / editorMaxScroll) * previewMaxScroll;
     setTimeout(() => isEditorScrolling = false, 50);
-});
-      
-// previewからeditorへのスクロールの同期
-document.getElementById("result").addEventListener("scroll", function() {
-  if (isEditorScrolling) return;
-        
-  const preview = document.getElementById("result");
-  const previewScroll = preview.scrollTop;
-  const previewMaxScroll = preview.scrollHeight - preview.clientHeight;
-  const editorMaxScroll = editor.renderer.layerConfig.maxHeight - editor.renderer.$size.scrollerHeight;
-  isPreviewScrolling = true;
-  editor.getSession().setScrollTop((previewScroll / previewMaxScroll) * editorMaxScroll);
-  setTimeout(() => isPreviewScrolling = false, 50);
 });
 
 /** キー入力の検知しマークダウンをHTMLに変換する関数 */
