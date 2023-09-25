@@ -39,6 +39,34 @@ let currentPath = null;
 const element = document.querySelector("#editor");
 element.addEventListener("keyup", handleChange);
 
+let isEditorScrolling = false;
+let isPreviewScrolling = false;
+// editorからpreviewへのスクロールの同期
+editor.getSession().on("changeScrollTop", function() {
+    if (isPreviewScrolling) return;
+    const editorScroll = editor.getSession().getScrollTop();
+    const editorMaxScroll = editor.renderer.layerConfig.maxHeight - editor.renderer.$size.scrollerHeight;
+    const preview = document.getElementById("result");
+    if (!preview) return;
+    const previewMaxScroll = preview.scrollHeight - preview.clientHeight;
+    isEditorScrolling = true;
+    preview.scrollTop = (editorScroll / editorMaxScroll) * previewMaxScroll;
+    setTimeout(() => isEditorScrolling = false, 50);
+});
+      
+// previewからeditorへのスクロールの同期
+document.getElementById("result").addEventListener("scroll", function() {
+  if (isEditorScrolling) return;
+        
+  const preview = document.getElementById("result");
+  const previewScroll = preview.scrollTop;
+  const previewMaxScroll = preview.scrollHeight - preview.clientHeight;
+  const editorMaxScroll = editor.renderer.layerConfig.maxHeight - editor.renderer.$size.scrollerHeight;
+  isPreviewScrolling = true;
+  editor.getSession().setScrollTop((previewScroll / previewMaxScroll) * editorMaxScroll);
+  setTimeout(() => isPreviewScrolling = false, 50);
+});
+
 /** キー入力の検知しマークダウンをHTMLに変換する関数 */
 function handleChange(event) {
     const inputText = editor.getValue();
