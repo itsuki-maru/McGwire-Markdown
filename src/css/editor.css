@@ -45,7 +45,12 @@ html.dark-theme {
   margin-top: 2%;
   margin-bottom: 1%;
   margin-right: -2%;
+}
 
+.editor-div {
+  border-radius: 5px;
+  border: solid 0.5px;
+  border-color: #949a9e;
 }
 
 .title_h1 {
