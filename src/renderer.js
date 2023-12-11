@@ -1,7 +1,6 @@
 import { lang } from "./js/rendererLang.js";
 import { initTour } from "./js/guide.js";
 
-
 // Aceの設定
 const editor = ace.edit("editor");
 editor.getSession().setMode("ace/mode/markdown");
@@ -22,6 +21,17 @@ editor.commands.addCommand(
         }
     }
 );
+
+// markedのスラッグ化機能をカスタマイズ
+const renderer = new marked.Renderer();
+renderer.heading = function(text, level, raw) {
+  return `<h${level} class="head${level}">${text}</h${level}>\n`; // class属性のCSSはトップレベル（App.vue）で定義
+};
+
+// markedの設定をカスタマイズ
+marked.setOptions({
+  renderer,
+});
 
 // markedの設定
 marked.use(

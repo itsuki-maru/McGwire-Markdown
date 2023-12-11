@@ -298,6 +298,20 @@ module.exports = (html) => `<!DOCTYPE html>
   p code {
     color: #d63384;
   }
+
+  .head1 {
+    font-size: 34px;
+    border-bottom: solid 3px #d7d7d7;
+  }
+  .head2 {
+    font-size: 24px;
+    color: black;
+    margin-top: 2%;
+    padding: 0.1em 0.3em;
+    background: #f4f4f4;
+    border-left: solid 5px #daac9e;
+    border-bottom: solid 3px #d7d7d7;
+  }
   </style>
 </head>
 
