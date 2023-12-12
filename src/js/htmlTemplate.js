@@ -10,8 +10,7 @@ module.exports = (html) => `<!DOCTYPE html>
     line-height: 1.6;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: white;
-    padding: 30px; }
+    background-color: white; }
   
   body > *:first-child {
     margin-top: 0 !important; }
