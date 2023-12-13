@@ -73,17 +73,18 @@ module.exports = (html) => `<!DOCTYPE html>
   h2 {
     font-size: 26px;
     margin-bottom: 20px;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
     color: black; }
   
   h3 {
-    font-size: 22px; }
+    font-size: 22px;
+    border-bottom: 1px solid #dbdbdb; }
   
   h4 {
-    font-size: 20px; }
+    font-size: 18px; }
   
   h5 {
-    font-size: 18px; }
+    font-size: 17px; }
   
   h6 {
     color: #777777;
