@@ -25,7 +25,7 @@ editor.commands.addCommand(
 // markedのスラッグ化機能をカスタマイズ
 const renderer = new marked.Renderer();
 renderer.heading = function(text, level, raw) {
-  return `<h${level} class="head${level}">${text}</h${level}>\n`; // class属性のCSSはトップレベル（App.vue）で定義
+  return `<h${level} class="head${level}">${text}</h${level}>\n`;
 };
 
 // markedの設定をカスタマイズ
