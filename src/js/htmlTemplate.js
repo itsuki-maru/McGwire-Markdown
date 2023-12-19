@@ -196,6 +196,8 @@ module.exports = (html) => `<!DOCTYPE html>
         margin-bottom: 0; }
   
   img {
+    border: 1px solid #333;
+    box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.5);
     max-width: 100%; }
   
   span.frame {
