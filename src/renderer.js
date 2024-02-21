@@ -28,6 +28,15 @@ renderer.heading = function(text, level, raw) {
   return `<h${level} class="head${level}">${text}</h${level}>\n`;
 };
 
+// [テキスト](URL)で定義されたリンクを別タブで開かせるカスタムレンダラ設定
+// 元のlink関数を保存
+const originalLinkRenderer = renderer.link.bind(renderer);
+// link関数をオーバーライド
+renderer.link = (href, title, text) => {
+  const html = originalLinkRenderer(href, title, text);
+  return html.replace(/^<a /, '<a target="_blank" rel="noopener noreferrer" title="外部リンク" ');
+};
+
 // markedの設定をカスタマイズ
 marked.setOptions({
   renderer,

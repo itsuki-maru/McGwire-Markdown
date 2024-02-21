@@ -70,6 +70,17 @@ function createWindow() {
     mainWindow = null;
     app.quit();
   });
+
+  // 別タブでウィンドウが開かれた際にフック
+  mainWindow.webContents.setWindowOpenHandler(({ url }) => {
+    const subWindow = new BrowserWindow({
+      title: "McGwire",
+      width: 1200,
+      height: 850,
+    });
+    subWindow.setMenuBarVisibility(false);
+    subWindow.loadURL(url);
+  });
 };
 
 // 初期化完了時にメインウィンドウを起動
