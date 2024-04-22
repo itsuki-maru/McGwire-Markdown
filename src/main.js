@@ -127,17 +127,17 @@ app.on("will-finish-launching", () => {
   let pathToOpen;
   // 開発環境時の引数読み込み
   if (!app.isPackaged) {
+    console.debug("DEVELOP");
     if (process.argv.length < 3) {
       return;
     }
-    console.log("DEVELOP");
     pathToOpen = process.argv[2];
-  // 本番環境時の引数読み込み
+    // 本番環境時の引数読み込み
   } else {
+    console.debug("BUILD");
     if (process.argv.length < 2) {
       return;
     }
-    console.log("BUILD");
     pathToOpen = process.argv[1];
   }
 
@@ -291,12 +291,12 @@ async function openPreviewWindow(event, html, filePath) {
 
   // HTMLが空文字である場合
   if (html === "") {
-    const options = { 
+    const options = {
       type: "info",
       title: "MarkDown Editer",
       message: appLang[applicationLang].appExportPDFNoTextMessage,
       detail: appLang[applicationLang].appExportPDFNoTextDetail
-     };
+    };
     dialog.showMessageBox(options);
     return "Text Data is None."
   }
@@ -366,12 +366,12 @@ async function openPreviewWindow(event, html, filePath) {
       try {
         fs.writeFileSync(outputPath, data);
         // PDF出力の正常終了の通知
-        const options = { 
+        const options = {
           type: "info",
           title: "MarkDown Editer",
           message: appLang[applicationLang].appExportPDFComplate,
           detail: appLang[applicationLang].appExportPDFComplate
-         };
+        };
         dialog.showMessageBox(options);
 
       } catch (error) {
@@ -402,12 +402,12 @@ async function openPreviewWindow(event, html, filePath) {
 async function printOut(event, html) {
   // HTMLが空文字である場合
   if (html === "") {
-    const options = { 
+    const options = {
       type: "info",
       title: "MarkDown Editer",
       message: appLang[applicationLang].appPrintOutNoTextMessage,
       detail: appLang[applicationLang].appPrintOutNoTextDetail
-     };
+    };
     dialog.showMessageBox(options);
     return "Text Data is None."
   }
@@ -543,7 +543,7 @@ async function csvToMarkdownTable() {
       ],
     }
   );
-  
+
   // ダイアログをクローズボタンで閉じられた際の処理
   if (result.filePaths.length > 0) {
     const filePath = result.filePaths[0];

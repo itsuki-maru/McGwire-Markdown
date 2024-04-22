@@ -219,6 +219,9 @@ async function openFile() {
     footerArea.textContent = currentPath = filePath;
     lastSaveTextData = textData;
     editor.setValue(textData);
+    // 画像を相対パスでレンダリング可能とするためのセッティング
+    const fileParentPath = getParentPath(filePath);
+    imageRendererOverride(fileParentPath);
   }
 };
 
@@ -385,6 +388,10 @@ document.addEventListener("drop", (event) => {
       return;
   };
 
+  // ドロップされたファイルのパスを読み込み
+  const fileParentPath = getParentPath(file.path);
+
+  // .mdファイルがドロップされた場合の処理（ファイル読み込み、エディタへの書き込む）
   if (file instanceof Blob) {  // Ensure that 'file' is a File (or Blob) object
     const reader = new FileReader();
     reader.onload = function () {
@@ -393,6 +400,8 @@ document.addEventListener("drop", (event) => {
 
       footerArea.textContent = currentPath = file.path;
       editor.setValue(textData, -1);
+      imageRendererOverride(fileParentPath)
+      
     };
     reader.readAsText(file);
   } else {
@@ -441,6 +450,9 @@ window.addEventListener("file-data", event => {
 // main.js-preload.jsから伝搬されてファイルパスのセットを行う
 window.addEventListener("file-path", event => {
   footerArea.textContent = currentPath = event.detail;
+  // 画像を相対パスでレンダリング可能とするためのセッティング
+  const fileParentPath = getParentPath(currentPath);
+  imageRendererOverride(fileParentPath);
 });
 
 document.getElementById("themeButton").addEventListener("click", function() {
@@ -488,3 +500,47 @@ document.getElementById("btnAppGuide").addEventListener("click", function () {
   let tour = initTour(langs[currentLangIndex]);
   tour.start();
 });
+
+/**
+ * ファイルパスを入力して親のパスを取得
+ *  @param {string} filePath
+ *  @returns {string}
+ */
+function getParentPath(filePath) {
+  // 最後の`/`を見つける
+  let lastSlashIndex = filePath.lastIndexOf("/");
+
+
+  // `/`が見つからない場合
+  if (lastSlashIndex === -1) {
+    // 区切り文字を`\`に変えて再度試みる
+    lastSlashIndex = filePath.lastIndexOf("\\");
+    if (lastSlashIndex === -1) {
+      return "";
+    }
+  }
+
+  // 最後の`/`若しくは`\`までの文字列を返す
+  return filePath.substring(0, lastSlashIndex);
+}
+
+
+/** 
+ * 相対パスで画像のレンダリングを行うためにMarked.jsのimageをオーバーライドする関数
+ * マークダウンファイルが存在するディレクトリを起点にする。
+ *  @param {string} fileParentPath
+ * 
+ */
+function imageRendererOverride(fileParentPath) {
+      // image関数をオーバーライド
+      renderer.image = function(href, title, text) {
+        let src = href;
+        // 相対パスが指定された場合、絶対パスに変換してレンダリングするカスタマイズ
+        if (!href.startsWith("http://") && !href.startsWith("https://") && href.startsWith("./")) {
+          // 絶対パスに変換
+          src = src.replace(/^./, fileParentPath);
+          src = `file://${src}`;
+        }
+        return `<img src="${src}" alt="${text}" title="${title || ''}">`;
+      }
+}
