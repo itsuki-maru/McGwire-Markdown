@@ -1,6 +1,9 @@
 import { lang } from "./js/rendererLang.js";
 import { initTour } from "./js/guide.js";
 
+// Mermaidの初期読み込みを阻止（MarkedによるHTMLレンダリング後にinitで読み込み）
+mermaid.initialize({startOnLoad: false});
+
 // Aceの設定
 const editor = ace.edit("editor");
 editor.getSession().setMode("ace/mode/markdown");
@@ -24,9 +27,22 @@ editor.commands.addCommand(
 
 // markedのスラッグ化機能をカスタマイズ
 const renderer = new marked.Renderer();
-renderer.heading = function(text, level, raw) {
+renderer.heading = (text, level, raw) => {
   return `<h${level} class="head${level}">${text}</h${level}>\n`;
 };
+
+// mermaidの処理
+const originalCodeRenderer = renderer.code.bind(renderer);
+renderer.code = (code, language) => {
+  const html = originalCodeRenderer(code, language);
+  if (language == "mermaid") {
+    code.replace("<code>", "");
+    code.replace("</code>", "");
+    return '<pre class="mermaid">' + code + '\n</pre>';
+  } else {
+    return html;
+  }
+}
 
 // [テキスト](URL)で定義されたリンクを別タブで開かせるカスタムレンダラ設定
 // 元のlink関数を保存
@@ -84,6 +100,8 @@ function handleChange(event) {
     }
     const html = marked.parse(inputText);
     document.querySelector('#result').innerHTML = html;
+    // mermaid.jsによるフロー図レンダリング
+    mermaid.init();
 };
 
 /** エディターとプレビュー部分の高さの自動調整 */

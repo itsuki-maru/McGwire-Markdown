@@ -315,6 +315,7 @@ module.exports = (html) => `<!DOCTYPE html>
     border-bottom: solid 3px #d7d7d7;
   }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10.5.0/dist/mermaid.min.js"></script>
 </head>
 
 <body>
