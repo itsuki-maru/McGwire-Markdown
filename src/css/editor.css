@@ -234,3 +234,10 @@ body {
   border-left: solid 5px #daac9e;
   border-bottom: solid 3px #d7d7d7;
 }
+
+.mermaid .error-icon {
+  display: none; /* アイコンを非表示にする */
+}
+.mermaid .error-text {
+  display: none;
+}

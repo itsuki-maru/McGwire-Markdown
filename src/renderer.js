@@ -101,8 +101,16 @@ function handleChange(event) {
     const html = marked.parse(inputText);
     document.querySelector('#result').innerHTML = html;
     // mermaid.jsによるフロー図レンダリング
-    mermaid.init();
+    drawMermaid();
 };
+
+async function drawMermaid() {
+  try {
+    await mermaid.init();
+  } catch(error) {
+    console.error("Mermaid Syntax Error.");
+  }
+}
 
 /** エディターとプレビュー部分の高さの自動調整 */
 window.onload = function() {
