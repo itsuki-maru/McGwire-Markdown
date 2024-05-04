@@ -1014,6 +1014,10 @@ This application uses open source software. Here is a list of the open source so
   - License: MIT
   - Repository: `https://github.com/thejoshwolfe/yauzl`
 
+-  `mermaid`
+  - License: MIT
+  - Repository: `https://github.com/mermaid-js/mermaid`
+
 ... (and so on for each package)
 
 For more details about each license, please follow the repository links.
@@ -1041,5 +1045,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-McGwire Markdown Version 1.5.0
+McGwire Markdown Version 1.6.0
 ```
