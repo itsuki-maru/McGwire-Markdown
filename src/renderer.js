@@ -100,9 +100,17 @@ function handleChange(event) {
     }
     const html = marked.parse(inputText);
     document.querySelector('#result').innerHTML = html;
+};
+
+
+// Ctrl + M を押下している間はMermaid.jsの描画を実行する（離すと解除）
+const handleKeyDown =(event) => {
+  if (event.ctrlKey && event.key === "m") {
+    event.preventDefault();
     // mermaid.jsによるフロー図レンダリング
     drawMermaid();
-};
+  }
+}
 
 async function drawMermaid() {
   try {
@@ -111,6 +119,8 @@ async function drawMermaid() {
     console.error("Mermaid Syntax Error.");
   }
 }
+
+window.addEventListener("keydown", handleKeyDown);
 
 /** エディターとプレビュー部分の高さの自動調整 */
 window.onload = function() {
