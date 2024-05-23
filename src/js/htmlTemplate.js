@@ -264,7 +264,7 @@ module.exports = (html) => `<!DOCTYPE html>
   code, tt {
     margin: 0 2px;
     padding: 0 5px;
-    white-space: nowrap;
+    white-space: pre-wrap;
     border: 1px solid #eaeaea;
     background-color: #f8f8f8;
     border-radius: 3px; }
@@ -294,6 +294,7 @@ module.exports = (html) => `<!DOCTYPE html>
     padding: 6px 10px;
     border-radius: 3px; }
     pre code, pre tt {
+      white-space: pre-wrap;
       background-color: transparent;
       border: none; }
 
