@@ -34,14 +34,21 @@ renderer.heading = (text, level, raw) => {
 // mermaidの処理
 const originalCodeRenderer = renderer.code.bind(renderer);
 renderer.code = (code, language) => {
-  const html = originalCodeRenderer(code, language);
+  let html = originalCodeRenderer(code, language, false);
   if (language == "mermaid") {
-    code.replace("<code>", "");
-    code.replace("</code>", "");
-    return '<pre class="mermaid">' + code + '\n</pre>';
+    return '<pre class="mermaid">' + escapeHtml(code) + '\n</pre>';
   } else {
-    return html;
+    return originalCodeRenderer(code, language, false);
   }
+}
+// HTMLエスケープ関数
+function escapeHtml(html) {
+  return html
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
 }
 
 // [テキスト](URL)で定義されたリンクを別タブで開かせるカスタムレンダラ設定
@@ -104,7 +111,7 @@ function handleChange(event) {
 
 
 // Ctrl + M を押下している間はMermaid.jsの描画を実行する（離すと解除）
-const handleKeyDown =(event) => {
+const handleKeyDown = (event) => {
   if (event.ctrlKey && event.key === "m") {
     event.preventDefault();
     // mermaid.jsによるフロー図レンダリング
