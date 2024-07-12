@@ -43,15 +43,21 @@ h1 tt, h1 code {
 
 h2 tt, h2 code {
   font-size: inherit;
-  color: #d63384; }
+  background: transparent;
+  border: none;
+  color: red; }
 
 h3 tt, h3 code {
   font-size: inherit;
-  color: #d63384; }
+  background: transparent;
+  border: none;
+  color: red; }
 
 h4 tt, h4 code {
   font-size: inherit;
-  color: #d63384; }
+  background: transparent;
+  border: none;
+  color: red; }
 
 h5 tt, h5 code {
   font-size: inherit; }
@@ -119,7 +125,9 @@ li p.first {
   display: inline-block; }
 
 li code {
-  color: #d63384; }
+  background: transparent;
+  border: none;
+  color: red; }
 
 ul, ol {
   padding-left: 30px; }
@@ -183,7 +191,9 @@ table {
       margin: 0;
       padding: 6px 13px; }
     table td code {
-      color: #d63384; }
+      background: transparent;
+      border: none;
+      color: red; }
     table tr th :first-child, table tr td :first-child {
       margin-top: 0; }
     table tr th :last-child, table tr td :last-child {
@@ -293,8 +303,9 @@ pre {
     border: none; }
 
 p code {
-  color: #d63384;
-}
+  background: transparent;
+  border: none;
+  color: red; }
 
 .head1 {
   font-size: 34px;

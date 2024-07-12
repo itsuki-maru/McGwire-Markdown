@@ -18,9 +18,11 @@ const settingPath = path.join(os.homedir(), "mcgwire-settings.json");
 
 // McGwireの言語設定を読み込み
 let applicationLang = "ja";
+let cssFilePath = "./src/css/github.css";
 async function appLangInit() {
   const settingInit = await loadSettings();
   applicationLang = settingInit.language;
+  cssFilePath = settingInit.cssPath;
 };
 appLangInit();
 
@@ -177,9 +179,9 @@ async function saveSettings(event, theme, language) {
   const settings = await loadSettings();
   if (theme === "") {
     applicationLang = language;
-    fs.writeFileSync(settingPath, JSON.stringify({ theme: settings.theme, language: language }));
+    fs.writeFileSync(settingPath, JSON.stringify({ theme: settings.theme, language: language, cssPath: "./src/css/github.css" }));
   } else if (language === "") {
-    fs.writeFileSync(settingPath, JSON.stringify({ theme: theme, language: settings.language }));
+    fs.writeFileSync(settingPath, JSON.stringify({ theme: theme, language: settings.language, cssPath: "./src/css/github.css" }));
   }
   return `Save Settings Ok.`;
 };
@@ -196,7 +198,7 @@ async function loadSettings() {
     return settings;
     // 設定ファイルが存在しない場合
   } else {
-    fs.writeFileSync(settingPath, JSON.stringify({ theme: "light-theme", language: "ja" }));
+    fs.writeFileSync(settingPath, JSON.stringify({ theme: "light-theme", language: "ja", cssPath: "./src/css/github.css" }));
     let settings = JSON.parse(fs.readFileSync(settingPath));
     return settings;
   }
@@ -331,7 +333,8 @@ async function openPreviewWindow(event, html, filePath) {
   }
 
   // htmlTemplate.jsを使用してHTMLファイルを生成
-  const htmlTxt = htmlTemplate(html);
+  const style = fs.readFileSync(cssFilePath);
+  const htmlTxt = htmlTemplate(html, style);
   fs.writeFile(previewHtmlFile, htmlTxt, (err) => {
     if (err) throw err;
     console.log("Preview HTML Write Ok.");
