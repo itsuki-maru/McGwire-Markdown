@@ -18,13 +18,15 @@ const settingPath = path.join(os.homedir(), "mcgwire-settings.json");
 
 // McGwireの言語設定を読み込み
 let applicationLang = "ja";
-let cssFilePath = "./src/css/github.css";
-async function appLangInit() {
+const defaultCssPath = "./src/css/mcgwire_default_style.css";
+let cssFilePath = path.join(os.homedir(), "mcgwire_default_style.css");
+
+async function appInit() {
   const settingInit = await loadSettings();
   applicationLang = settingInit.language;
   cssFilePath = settingInit.cssPath;
 };
-appLangInit();
+appInit();
 
 // アプリケーションメインウィンドウ
 function createWindow() {
@@ -155,6 +157,7 @@ app.on("will-finish-launching", () => {
 
 
 // レンダラープロセスとの連携を定義
+ipcMain.handle("getCssFilePath", getCssFilePath);
 ipcMain.handle("openFile", openFile);
 ipcMain.handle("saveFile", saveFile);
 ipcMain.handle("openPreviewWindow", openPreviewWindow);
@@ -179,9 +182,9 @@ async function saveSettings(event, theme, language) {
   const settings = await loadSettings();
   if (theme === "") {
     applicationLang = language;
-    fs.writeFileSync(settingPath, JSON.stringify({ theme: settings.theme, language: language, cssPath: "./src/css/github.css" }));
+    fs.writeFileSync(settingPath, JSON.stringify({ theme: settings.theme, language: language, cssPath: cssFilePath }));
   } else if (language === "") {
-    fs.writeFileSync(settingPath, JSON.stringify({ theme: theme, language: settings.language, cssPath: "./src/css/github.css" }));
+    fs.writeFileSync(settingPath, JSON.stringify({ theme: theme, language: settings.language, cssPath: cssFilePath }));
   }
   return `Save Settings Ok.`;
 };
@@ -192,18 +195,35 @@ async function saveSettings(event, theme, language) {
  *  @returns {Object} - settings = {theme: theme, language: language}
  */
 async function loadSettings() {
+  let settings;
   // 設定ファイルがすでに存在する場合
   if (fs.existsSync(settingPath)) {
-    let settings = JSON.parse(fs.readFileSync(settingPath));
-    return settings;
+    settings = JSON.parse(fs.readFileSync(settingPath));
+
     // 設定ファイルが存在しない場合
   } else {
-    fs.writeFileSync(settingPath, JSON.stringify({ theme: "light-theme", language: "ja", cssPath: "./src/css/github.css" }));
-    let settings = JSON.parse(fs.readFileSync(settingPath));
-    return settings;
+    fs.writeFileSync(settingPath, JSON.stringify({ theme: "light-theme", language: "ja", cssPath: cssFilePath }));
+    settings = JSON.parse(fs.readFileSync(settingPath));
   }
+
+  // CSSファイルの存在を確認
+  if (!fs.existsSync(cssFilePath)) {
+    const styleText = fs.readFileSync(defaultCssPath);
+    fs.writeFileSync(cssFilePath, styleText, (err) => {
+      if (err) throw err;
+      console.log("CSS is default. Write Ok.");
+    });
+  }
+  return settings;
 };
 
+/**
+ * CSSファイルのパスを返却
+ * @returns {string}
+ */
+function getCssFilePath() {
+  return cssFilePath;
+}
 
 /**
  *  ファイルオープン処理

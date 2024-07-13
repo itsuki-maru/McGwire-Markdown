@@ -1,6 +1,11 @@
 import { lang } from "./js/rendererLang.js";
 import { initTour } from "./js/guide.js";
 
+// Node.jsからCSSファイルのパスを受け取る
+const cssFilePath = window.myApp.getCssFilePath();
+console.log(cssFilePath);
+
+
 // Mermaidの初期読み込みを阻止（MarkedによるHTMLレンダリング後にinitで読み込み）
 mermaid.initialize({startOnLoad: false});
 

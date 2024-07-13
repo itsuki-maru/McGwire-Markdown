@@ -1,332 +1,532 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8" />
   <title>McGwire</title>
   <style>
-  body {
-    font-family: Helvetica, arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.6;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: white;
-    padding: 30px; }
-  
-  body > *:first-child {
-    margin-top: 0 !important; }
-  body > *:last-child {
-    margin-bottom: 0 !important; }
-  
-  a {
-    color: #4183C4; }
-  a.absent {
-    color: #cc0000; }
-  a.anchor {
-    display: block;
-    padding-left: 30px;
-    margin-left: -30px;
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0; }
-  
-  h1, h2, h3, h4, h5, h6 {
-    margin: 20px 0 10px;
-    padding: 0;
-    font-weight: bold;
-    -webkit-font-smoothing: antialiased;
-    cursor: text;
-    position: relative; }
-  
-  h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
-    background: url("../../images/modules/styleguide/para.png") no-repeat 10px center;
-    text-decoration: none; }
-  
-  h1 tt, h1 code {
-    font-size: inherit; }
-  
-  h2 tt, h2 code {
-    font-size: inherit; }
-  
-  h3 tt, h3 code {
-    font-size: inherit; }
-  
-  h4 tt, h4 code {
-    font-size: inherit; }
-  
-  h5 tt, h5 code {
-    font-size: inherit; }
-  
-  h6 tt, h6 code {
-    font-size: inherit; }
-  
-  h1 {
-    font-size: 34px;
-    margin-bottom: 30px;
-    color: black; }
-  
-  h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #cccccc;
-    color: black; }
-  
-  h3 {
-    font-size: 18px; }
-  
-  h4 {
-    font-size: 16px; }
-  
-  h5 {
-    font-size: 14px; }
-  
-  h6 {
-    color: #777777;
-    font-size: 14px; }
-  
-  p, blockquote, ul, ol, dl, li, table, pre {
-    margin: 15px 0; }
-  
-  hr {
-    background: transparent url("../../images/modules/pulls/dirty-shade.png") repeat-x 0 0;
-    border: 0 none;
-    color: #cccccc;
-    height: 4px;
-    padding: 0; }
-  
-  body > h2:first-child {
-    margin-top: 0;
-    padding-top: 0; }
-  body > h1:first-child {
-    margin-top: 0;
-    padding-top: 0; }
-    body > h1:first-child + h2 {
+    body {
+      font-family: Helvetica, arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: white;
+      padding: 30px;
+    }
+
+    body>*:first-child {
+      margin-top: 0 !important;
+    }
+
+    body>*:last-child {
+      margin-bottom: 0 !important;
+    }
+
+    a {
+      color: #4183C4;
+    }
+
+    a.absent {
+      color: #cc0000;
+    }
+
+    a.anchor {
+      display: block;
+      padding-left: 30px;
+      margin-left: -30px;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 20px 0 10px;
+      padding: 0;
+      font-weight: bold;
+      -webkit-font-smoothing: antialiased;
+      cursor: text;
+      position: relative;
+    }
+
+    h1:hover a.anchor,
+    h2:hover a.anchor,
+    h3:hover a.anchor,
+    h4:hover a.anchor,
+    h5:hover a.anchor,
+    h6:hover a.anchor {
+      background: url("../../images/modules/styleguide/para.png") no-repeat 10px center;
+      text-decoration: none;
+    }
+
+    h1 tt,
+    h1 code {
+      font-size: inherit;
+    }
+
+    h2 tt,
+    h2 code {
+      font-size: inherit;
+      background: transparent;
+      border: none;
+      color: red;
+    }
+
+    h3 tt,
+    h3 code {
+      font-size: inherit;
+      background: transparent;
+      border: none;
+      color: red;
+    }
+
+    h4 tt,
+    h4 code {
+      font-size: inherit;
+      background: transparent;
+      border: none;
+      color: red;
+    }
+
+    h5 tt,
+    h5 code {
+      font-size: inherit;
+    }
+
+    h6 tt,
+    h6 code {
+      font-size: inherit;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 18px;
+      color: black;
+    }
+
+    h2 {
+      font-size: 26px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #cccccc;
+      color: black;
+    }
+
+    h3 {
+      font-size: 22px;
+      border-bottom: 1px solid #dbdbdb;
+    }
+
+    h4 {
+      font-size: 18px;
+    }
+
+    h5 {
+      font-size: 17px;
+    }
+
+    h6 {
+      color: #777777;
+      font-size: 16px;
+    }
+
+    p,
+    blockquote,
+    ul,
+    ol,
+    dl,
+    li,
+    table,
+    pre {
+      margin: 15px 0;
+      font-size: 16px;
+    }
+
+    hr {
+      background: transparent url("../../images/modules/pulls/dirty-shade.png") repeat-x 0 0;
+      border: 0 none;
+      color: #cccccc;
+      height: 4px;
+      padding: 0;
+    }
+
+    body>h2:first-child {
       margin-top: 0;
-      padding-top: 0; }
-  body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
-    margin-top: 0;
-    padding-top: 0; }
-  
-  a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
-    margin-top: 0;
-    padding-top: 0; }
-  
-  h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
-    margin-top: 0; }
-  
-  li p.first {
-    display: inline-block; }
-  
-  ul, ol {
-    padding-left: 30px; }
-  
-  ul :first-child, ol :first-child {
-    margin-top: 0; }
-  
-  ul :last-child, ol :last-child {
-    margin-bottom: 0; }
-  
-  dl {
-    padding: 0; }
+      padding-top: 0;
+    }
+
+    body>h1:first-child {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    body>h1:first-child+h2 {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    body>h3:first-child,
+    body>h4:first-child,
+    body>h5:first-child,
+    body>h6:first-child {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    a:first-child h1,
+    a:first-child h2,
+    a:first-child h3,
+    a:first-child h4,
+    a:first-child h5,
+    a:first-child h6 {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    h1 p,
+    h2 p,
+    h3 p,
+    h4 p,
+    h5 p,
+    h6 p {
+      margin-top: 0;
+    }
+
+    li p.first {
+      display: inline-block;
+    }
+
+    li code {
+      background: transparent;
+      border: none;
+      color: red;
+    }
+
+    ul,
+    ol {
+      padding-left: 30px;
+    }
+
+    ul :first-child,
+    ol :first-child {
+      margin-top: 0;
+    }
+
+    ul :last-child,
+    ol :last-child {
+      margin-bottom: 0;
+    }
+
+    dl {
+      padding: 0;
+    }
+
     dl dt {
       font-size: 14px;
       font-weight: bold;
       font-style: italic;
       padding: 0;
-      margin: 15px 0 5px; }
-      dl dt:first-child {
-        padding: 0; }
-      dl dt > :first-child {
-        margin-top: 0; }
-      dl dt > :last-child {
-        margin-bottom: 0; }
+      margin: 15px 0 5px;
+    }
+
+    dl dt:first-child {
+      padding: 0;
+    }
+
+    dl dt> :first-child {
+      margin-top: 0;
+    }
+
+    dl dt> :last-child {
+      margin-bottom: 0;
+    }
+
     dl dd {
       margin: 0 0 15px;
-      padding: 0 15px; }
-      dl dd > :first-child {
-        margin-top: 0; }
-      dl dd > :last-child {
-        margin-bottom: 0; }
-  
-  blockquote {
-    border-left: 4px solid #dddddd;
-    padding: 0 15px;
-    color: #777777; }
-    blockquote > :first-child {
-      margin-top: 0; }
-    blockquote > :last-child {
-      margin-bottom: 0; }
-  
-  table {
-    padding: 0; }
+      padding: 0 15px;
+    }
+
+    dl dd> :first-child {
+      margin-top: 0;
+    }
+
+    dl dd> :last-child {
+      margin-bottom: 0;
+    }
+
+    blockquote {
+      border-left: 4px solid #dddddd;
+      padding: 0 15px;
+      color: #777777;
+    }
+
+    blockquote> :first-child {
+      margin-top: 0;
+    }
+
+    blockquote> :last-child {
+      margin-bottom: 0;
+    }
+
+    table {
+      padding: 0;
+    }
+
     table tr {
       border-top: 1px solid #cccccc;
       background-color: white;
       margin: 0;
-      padding: 0; }
-      table tr:nth-child(2n) {
-        background-color: #f8f8f8; }
-      table tr th {
-        font-weight: bold;
-        background-color: #8ec3f8;
-        border: 1px solid #cccccc;
-        text-align: left;
-        margin: 0;
-        padding: 6px 13px; }
-      table tr td {
-        border: 1px solid #cccccc;
-        text-align: left;
-        margin: 0;
-        padding: 6px 13px; }
-      table tr th :first-child, table tr td :first-child {
-        margin-top: 0; }
-      table tr th :last-child, table tr td :last-child {
-        margin-bottom: 0; }
-  
-  img {
-    max-width: 100%; }
-  
-  span.frame {
-    display: block;
-    overflow: hidden; }
-    span.frame > span {
+      padding: 0;
+    }
+
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8;
+    }
+
+    table tr th {
+      font-weight: bold;
+      background-color: #8ec3f8;
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px;
+    }
+
+    table tr td {
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px;
+    }
+
+    table td code {
+      background: transparent;
+      border: none;
+      color: red;
+    }
+
+    table tr th :first-child,
+    table tr td :first-child {
+      margin-top: 0;
+    }
+
+    table tr th :last-child,
+    table tr td :last-child {
+      margin-bottom: 0;
+    }
+
+    img {
+      border: 1px solid #333;
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.5);
+      max-width: 100%;
+    }
+
+    span.frame {
+      display: block;
+      overflow: hidden;
+    }
+
+    span.frame>span {
       border: 1px solid #dddddd;
       display: block;
       float: left;
       overflow: hidden;
       margin: 13px 0 0;
       padding: 7px;
-      width: auto; }
+      width: auto;
+    }
+
     span.frame span img {
       display: block;
-      float: left; }
+      float: left;
+    }
+
     span.frame span span {
       clear: both;
       color: #333333;
       display: block;
-      padding: 5px 0 0; }
-  span.align-center {
-    display: block;
-    overflow: hidden;
-    clear: both; }
-    span.align-center > span {
+      padding: 5px 0 0;
+    }
+
+    span.align-center {
+      display: block;
+      overflow: hidden;
+      clear: both;
+    }
+
+    span.align-center>span {
       display: block;
       overflow: hidden;
       margin: 13px auto 0;
-      text-align: center; }
+      text-align: center;
+    }
+
     span.align-center span img {
       margin: 0 auto;
-      text-align: center; }
-  span.align-right {
-    display: block;
-    overflow: hidden;
-    clear: both; }
-    span.align-right > span {
+      text-align: center;
+    }
+
+    span.align-right {
+      display: block;
+      overflow: hidden;
+      clear: both;
+    }
+
+    span.align-right>span {
       display: block;
       overflow: hidden;
       margin: 13px 0 0;
-      text-align: right; }
+      text-align: right;
+    }
+
     span.align-right span img {
       margin: 0;
-      text-align: right; }
-  span.float-left {
-    display: block;
-    margin-right: 13px;
-    overflow: hidden;
-    float: left; }
+      text-align: right;
+    }
+
+    span.float-left {
+      display: block;
+      margin-right: 13px;
+      overflow: hidden;
+      float: left;
+    }
+
     span.float-left span {
-      margin: 13px 0 0; }
-  span.float-right {
-    display: block;
-    margin-left: 13px;
-    overflow: hidden;
-    float: right; }
-    span.float-right > span {
+      margin: 13px 0 0;
+    }
+
+    span.float-right {
+      display: block;
+      margin-left: 13px;
+      overflow: hidden;
+      float: right;
+    }
+
+    span.float-right>span {
       display: block;
       overflow: hidden;
       margin: 13px auto 0;
-      text-align: right; }
-  
-  code, tt {
-    margin: 0 2px;
-    padding: 0 5px;
-    white-space: pre-wrap;
-    border: 1px solid #eaeaea;
-    background-color: #f8f8f8;
-    border-radius: 3px; }
-  
-  p code {
-    color: #D63384;
-  }
+      text-align: right;
+    }
 
-  pre code {
-    margin: 0;
-    padding: 0;
-    white-space: pre;
-    border: none;
-    background: transparent; }
-  
-  .highlight pre {
-    background-color: #f8f8f8;
-    border: 1px solid #cccccc;
-    font-size: 13px;
-    line-height: 19px;
-    overflow: auto;
-    padding: 6px 10px;
-    border-radius: 3px; }
-  
-  pre {
-    background-color: #f8f8f8;
-    border: 1px solid #cccccc;
-    font-size: 13px;
-    line-height: 19px;
-    overflow: auto;
-    padding: 6px 10px;
-    border-radius: 3px; }
-    pre code, pre tt {
+    code,
+    tt {
+      margin: 0 2px;
+      padding: 0 5px;
+      white-space: pre-wrap;
+      border: 1px solid #eaeaea;
+      background-color: #f8f8f8;
+      border-radius: 3px;
+    }
+
+    pre code {
+      margin: 0;
+      padding: 0;
+      white-space: pre;
+      border: none;
+      background: transparent;
+    }
+
+    .highlight pre {
+      background-color: #f8f8f8;
+      border: 1px solid #cccccc;
+      font-size: 13px;
+      line-height: 19px;
+      overflow: auto;
+      padding: 6px 10px;
+      border-radius: 3px;
+    }
+
+    pre {
+      background-color: #f8f8f8;
+      border: 1px solid #cccccc;
+      font-size: 13px;
+      line-height: 19px;
+      overflow: auto;
+      padding: 6px 10px;
+      border-radius: 3px;
+    }
+
+    pre code,
+    pre tt {
       white-space: pre-wrap;
       background-color: transparent;
-      border: none; }
+      border: none;
+    }
+
+    p code {
+      background: transparent;
+      border: none;
+      color: red;
+    }
+
+    .head1 {
+      font-size: 34px;
+      border-bottom: solid 3px #d7d7d7;
+    }
+
+    .head2 {
+      font-size: 24px;
+      color: black;
+      margin-top: 2%;
+      padding: 0.1em 0.3em;
+      background: #f4f4f4;
+      border-left: solid 5px #daac9e;
+      border-bottom: solid 3px #d7d7d7;
+    }
   </style>
 </head>
 
 <body>
-  <div class="container-fluid"><h1>How to Use the Markdown Editor</h1>
-  <h2>Overview</h2>
-  <p><strong>Markdown</strong> is a means of creating documents like this. It is written according to the following rules. A characteristic of Markdown is that you can <strong>easily create well-formatted documents and meeting materials</strong>.</p>
-  <p>Document creation tools like <code>Microsoft Word</code> are highly functional, but <strong>they have a high learning cost and are complex, often resulting in different formatting depending on the creator</strong>.</p>
-  <p><code>McGwire Markdown</code> is an application for creating documents in Markdown.</p>
-  <h2>How to Create Headings</h2>
-  <p>The size of the heading changes with the number of <code>#</code> characters. Leave a <strong>half-width space</strong> after the <code>#</code>. There are six levels of size. The <code>#</code> button (on the preview screen) can be clicked to insert it.</p>
-  <h1>Heading1</h1>
-  <h2>Heading2</h2>
-  <h3>Heading3</h3>
-  <h4>Heading4</h4>
-  <h5>Heading5</h5>
-  <h6>Heading6</h6>
-  <h4>Example</h4>
-  <pre><code># Heading1
+  <div class="container-fluid">
+    <h1>How to Use the Markdown Editor</h1>
+    <h2>Overview</h2>
+    <p><strong>Markdown</strong> is a means of creating documents like this. It is written according to the following
+      rules. A characteristic of Markdown is that you can <strong>easily create well-formatted documents and meeting
+        materials</strong>.</p>
+    <p>Document creation tools like <code>Microsoft Word</code> are highly functional, but <strong>they have a high
+        learning cost and are complex, often resulting in different formatting depending on the creator</strong>.</p>
+    <p><code>McGwire Markdown</code> is an application for creating documents in Markdown.</p>
+    <h2>How to Create Headings</h2>
+    <p>The size of the heading changes with the number of <code>#</code> characters. Leave a <strong>half-width
+        space</strong> after the <code>#</code>. There are six levels of size. The <code>#</code> button (on the preview
+      screen) can be clicked to insert it.</p>
+    <h1>Heading1</h1>
+    <h2>Heading2</h2>
+    <h3>Heading3</h3>
+    <h4>Heading4</h4>
+    <h5>Heading5</h5>
+    <h6>Heading6</h6>
+    <h4>Example</h4>
+    <pre><code># Heading1
 ## Heading2
 ### Heading3
 #### Heading4
 ##### Heading5
 ###### Heading6
 </code></pre>
-  <h2>Emphasizing Text</h2>
-  <p>Surround the <code>**place to emphasize**</code> with two <code>*</code>. The <code>**</code> button (on the preview screen) can be clicked to insert it.</p>
-  <h3>Example</h3><pre><code>**This place is very dangerous.**</code></pre>
-  <h2>Quotation</h2>
-  <p>For quotations and double quotations (used in dialogues and minutes), use the <code>&gt;</code> symbol. The <code>&gt;</code> and <code>&gt;&gt;</code> buttons (on the preview screen) can be clicked to insert it.</p>
-  <blockquote>
-  <p>Company ●●</p>
-  <p>Thank you for your continued support.</p>
-  <p>Regarding the issue you contacted us about the other day where you couldn't connect to the Internet.</p>
-  <p>There are days like that.</p>
-  </blockquote>
-  <h3>Example</h3>
-  <pre><code>&gt; Company ●●
+    <h2>Emphasizing Text</h2>
+    <p>Surround the <code>**place to emphasize**</code> with two <code>*</code>. The <code>**</code> button (on the
+      preview screen) can be clicked to insert it.</p>
+    <h3>Example</h3>
+    <pre><code>**This place is very dangerous.**</code></pre>
+    <h2>Quotation</h2>
+    <p>For quotations and double quotations (used in dialogues and minutes), use the <code>&gt;</code> symbol. The
+      <code>&gt;</code> and <code>&gt;&gt;</code> buttons (on the preview screen) can be clicked to insert it.</p>
+    <blockquote>
+      <p>Company ●●</p>
+      <p>Thank you for your continued support.</p>
+      <p>Regarding the issue you contacted us about the other day where you couldn't connect to the Internet.</p>
+      <p>There are days like that.</p>
+    </blockquote>
+    <h3>Example</h3>
+    <pre><code>&gt; Company ●●
 &gt;
 &gt; Thank you for your continued support.
 &gt; 
@@ -334,19 +534,19 @@
 &gt;
 &gt; There are days like that.
 </code></pre>
-  <p>For double quotations (like dialogues), use <code>&gt;</code> and <code>&gt;&gt;</code> alternately.</p>
-  <blockquote>
-  <p>Hello, Bob.</p>
-  <blockquote>
-  <p>Hello, Alice.</p>
-  </blockquote>
-  <p>Do you know where my car is?</p>
-  <blockquote>
-  <p>Your car was driving now.</p>
-  </blockquote>
-  </blockquote>
-  <h3>Example</h3>
-  <pre><code>&gt; Hello, Bob.
+    <p>For double quotations (like dialogues), use <code>&gt;</code> and <code>&gt;&gt;</code> alternately.</p>
+    <blockquote>
+      <p>Hello, Bob.</p>
+      <blockquote>
+        <p>Hello, Alice.</p>
+      </blockquote>
+      <p>Do you know where my car is?</p>
+      <blockquote>
+        <p>Your car was driving now.</p>
+      </blockquote>
+    </blockquote>
+    <h3>Example</h3>
+    <pre><code>&gt; Hello, Bob.
 &gt;
 &gt;&gt; Hello, Alice.
 &gt; 
@@ -354,109 +554,120 @@
 &gt;
 &gt;&gt; Your car was driving now.
 </code></pre>
-  <h2>How to Create a Bulleted List</h2>
-  <p>For bulleted lists, use <code>-</code>. Leave a <strong>half-width space</strong> after the <code>-</code>. The <code>-</code> button (on the preview screen) can be clicked to insert it.</p>
-  <ul>
-  <li>Author and Work</li>
-  <li>Keiichiro Yasuoka<ul>
-  <li>Audubon's Prayer</li>
-  <li>Modern Times</li>
-  </ul>
-  </li>
-  <li>A.D. Salinger<ul>
-  <li>Catcher in the Rye</li>
-  </ul>
-  </li>
-  </ul>
-  <h3>Example</h3>
-  <pre><code>- Author and Work
+    <h2>How to Create a Bulleted List</h2>
+    <p>For bulleted lists, use <code>-</code>. Leave a <strong>half-width space</strong> after the <code>-</code>. The
+      <code>-</code> button (on the preview screen) can be clicked to insert it.</p>
+    <ul>
+      <li>Author and Work</li>
+      <li>Keiichiro Yasuoka<ul>
+          <li>Audubon's Prayer</li>
+          <li>Modern Times</li>
+        </ul>
+      </li>
+      <li>A.D. Salinger<ul>
+          <li>Catcher in the Rye</li>
+        </ul>
+      </li>
+    </ul>
+    <h3>Example</h3>
+    <pre><code>- Author and Work
 - Keiichiro Yasuoka
   - Audubon's Prayer
   - Modern Times
 - A.D. Salinger
   - Catcher in the Rye
 </code></pre>
-  <h2>How to Create a Numbered List</h2>
-  <p>For numbered lists, use <code>1.</code>. Leave a <strong>half-width space</strong> after the <code>1.</code>. The <code>1.</code> button (on the preview screen) can be clicked to insert it.</p>
-  <ol>
-  <li>About Park Maintenance<ol>
-  <li>Safety Inspection of Playground Equipment</li>
-  <li>Confirmation of Off-limits Areas</li>
-  </ol>
-  </li>
-  <li>About Construction Schedule</li>
-  <li>Others</li>
-  </ol>
-  <h3>Example</h3>
-  <pre><code>1. About Park Maintenance
+    <h2>How to Create a Numbered List</h2>
+    <p>For numbered lists, use <code>1.</code>. Leave a <strong>half-width space</strong> after the <code>1.</code>. The
+      <code>1.</code> button (on the preview screen) can be clicked to insert it.</p>
+    <ol>
+      <li>About Park Maintenance<ol>
+          <li>Safety Inspection of Playground Equipment</li>
+          <li>Confirmation of Off-limits Areas</li>
+        </ol>
+      </li>
+      <li>About Construction Schedule</li>
+      <li>Others</li>
+    </ol>
+    <h3>Example</h3>
+    <pre><code>1. About Park Maintenance
     1. Safety Inspection of Playground Equipment
     2. Confirmation of Off-limits Areas
 2. About Construction Schedule
 3. Others
 </code></pre>
-  <h2>Checklist</h2>
-  <ul>
-  <li><input disabled="" type="checkbox"> Checkbox 1</li>
-  <li><input checked="" disabled="" type="checkbox"> Checkbox 2</li>
-  </ul>
-  <p>For checklists, use <code>- [x]</code> (checked) and <code>- [ ]</code> (unchecked). Leave a <strong>half-width space</strong> after the <code>- [x]</code>. The <code>- [x]</code> button (on the preview screen) can be clicked to insert it.</p>
-  <h3>Example of description</h3>
-  <pre><code>- [ ] Checkbox 1
+    <h2>Checklist</h2>
+    <ul>
+      <li><input disabled="" type="checkbox"> Checkbox 1</li>
+      <li><input checked="" disabled="" type="checkbox"> Checkbox 2</li>
+    </ul>
+    <p>For checklists, use <code>- [x]</code> (checked) and <code>- [ ]</code> (unchecked). Leave a <strong>half-width
+        space</strong> after the <code>- [x]</code>. The <code>- [x]</code> button (on the preview screen) can be
+      clicked to insert it.</p>
+    <h3>Example of description</h3>
+    <pre><code>- [ ] Checkbox 1
 - [x] Checkbox 2
 </code></pre>
-  <h2>How to create a table</h2>
-  <p>You create a table using the pipe <code>|</code> and hyphen <code>-</code>. The hyphen defines the headers of the columns, and the pipe separates the columns. You can insert this by clicking the <code>|</code> button (on the preview screen).</p>
-  <table>
-  <thead>
-  <tr>
-  <th>Title</th>
-  <th>Content</th>
-  <th>Notes</th>
-  </tr>
-  </thead>
-  <tbody><tr>
-  <td>Catcher in the Rye</td>
-  <td>Salinger</td>
-  <td>None</td>
-  </tr>
-  <tr>
-  <td>Audubon's Prayer</td>
-  <td>Kouki Isaka</td>
-  <td>None</td>
-  </tr>
-  <tr>
-  <td>Modern Times</td>
-  <td>Kouki Isaka</td>
-  <td>None</td>
-  </tr>
-  <tr>
-  <td>Y</td>
-  <td>Shogo Sato</td>
-  <td>None</td>
-  </tr>
-  </tbody></table>
-  <h3>Example of description</h3>
-  <pre><code>| Title | Content | Notes |
+    <h2>How to create a table</h2>
+    <p>You create a table using the pipe <code>|</code> and hyphen <code>-</code>. The hyphen defines the headers of the
+      columns, and the pipe separates the columns. You can insert this by clicking the <code>|</code> button (on the
+      preview screen).</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Content</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Catcher in the Rye</td>
+          <td>Salinger</td>
+          <td>None</td>
+        </tr>
+        <tr>
+          <td>Audubon's Prayer</td>
+          <td>Kouki Isaka</td>
+          <td>None</td>
+        </tr>
+        <tr>
+          <td>Modern Times</td>
+          <td>Kouki Isaka</td>
+          <td>None</td>
+        </tr>
+        <tr>
+          <td>Y</td>
+          <td>Shogo Sato</td>
+          <td>None</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>Example of description</h3>
+    <pre><code>| Title | Content | Notes |
 | - | - | - |
 | Catcher in the Rye | Salinger | None |
 | Audubon's Prayer | Kouki Isaka | None |
 | Modern Times | Kouki Isaka | None |
 | Y | Shogo Sato | None |
 </code></pre>
-  <h2>Inserting links and images</h2>
-  <p>Links are created in the form <code>[link text](URL)</code>.</p>
-  <h3>Example of link description</h3>
-  <pre><code>[Google](https://www.google.com)
+    <h2>Inserting links and images</h2>
+    <p>Links are created in the form <code>[link text](URL)</code>.</p>
+    <h3>Example of link description</h3>
+    <pre><code>[Google](https://www.google.com)
 </code></pre>
-  <p>Images are inserted in the form <code>![alt text](URL or file path of the image)</code>. You can insert an image by dropping it or by clicking the <code>📷</code> button (on the preview screen).</p>
-  <h3>Example of image description</h3>
-  <pre><code>![logo](https://example.com/logo.png)
+    <p>Images are inserted in the form <code>![alt text](URL or file path of the image)</code>. You can insert an image
+      by dropping it or by clicking the <code>📷</code> button (on the preview screen).</p>
+    <h3>Example of image description</h3>
+    <pre><code>![logo](https://example.com/logo.png)
 </code></pre>
-  <h2>Page Break</h2>
-  <p>When outputting to a PDF, you may want to insert a <strong>page break</strong>. In this case, you enter the following string.</p>
-  <pre><code>&lt;div style=&quot;page-break-before:always&quot;&gt;&lt;/div&gt;
+    <h2>Page Break</h2>
+    <p>When outputting to a PDF, you may want to insert a <strong>page break</strong>. In this case, you enter the
+      following string.</p>
+    <pre><code>&lt;div style=&quot;page-break-before:always&quot;&gt;&lt;/div&gt;
 </code></pre>
-  <p>You can insert this string by clicking the <code>↲</code> button (on the preview screen).</p>
+    <p>You can insert this string by clicking the <code>↲</code> button (on the preview screen).</p>
   </div>
-  </body>  
+</body>
+
 </html>
