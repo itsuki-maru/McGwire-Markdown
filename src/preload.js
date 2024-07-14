@@ -2,8 +2,8 @@ const { contextBridge, ipcRenderer } = require("electron");
 
 contextBridge.exposeInMainWorld("myApp", {
   /** CSSファイルのパスを取得 */
-  getCssFilePath() {
-    const result = ipcRenderer.invoke("getCssFilePath");
+  async getCssFilePath() {
+    const result = await ipcRenderer.invoke("getCssFilePath");
     return result;
   },
 

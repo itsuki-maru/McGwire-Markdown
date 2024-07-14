@@ -221,7 +221,7 @@ async function loadSettings() {
  * CSSファイルのパスを返却
  * @returns {string}
  */
-function getCssFilePath() {
+async function getCssFilePath() {
   return cssFilePath;
 }
 
