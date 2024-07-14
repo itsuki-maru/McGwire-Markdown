@@ -18,7 +18,7 @@ const settingPath = path.join(os.homedir(), "mcgwire-settings.json");
 
 // McGwireの言語設定を読み込み
 let applicationLang = "ja";
-const defaultCssPath = "./src/css/mcgwire_default_style.css";
+const defaultCssPath = path.join(app.getAppPath(), "./src/css/mcgwire_default_style.css");
 let cssFilePath = path.join(os.homedir(), "mcgwire_default_style.css");
 
 async function appInit() {
