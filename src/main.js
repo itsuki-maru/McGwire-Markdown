@@ -379,7 +379,7 @@ async function openPreviewWindow(event, html, filePath) {
   // 非表示でPDF出力用のpreviewWinを起動
   previewWin.webContents.on("did-finish-load", () => {
     previewWin.webContents.printToPDF({
-      scale: 0.8,
+      scale: 0.75,
       pageSize: "A4",
       printBackground: true,
       margins: {
