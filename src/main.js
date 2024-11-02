@@ -34,11 +34,19 @@ function createWindow() {
   let mainScreen = screen.getPrimaryDisplay();
   let dimensions = mainScreen.size;
 
+  // 現在のカーソル位置を取得（readyイベントより後に使用可能）
+  const cursorPoint = screen.getCursorScreenPoint();
+  // カーソルがあるディスプレイの情報を取得
+  const activeDisplay = screen.getDisplayNearestPoint(cursorPoint);
+
   mainWindow = new BrowserWindow({
     minWidth: dimensions.width / 1.2,
     minHeight: dimensions.height / 1.2,
     maxWidth: dimensions.width,
     maxHeight: dimensions.height,
+    // ウィンドウを開く場所をアクティブウィンドウの中心位置に設定
+    x: activeDisplay.workArea.x + (activeDisplay.workArea.width - dimensions.width) / 2,
+    y: activeDisplay.workArea.y + (activeDisplay.workArea.height - dimensions.height) / 2,
     webPreferences: {
       preload: path.join(app.getAppPath(), "./src/preload.js"),
     }
@@ -77,10 +85,15 @@ function createWindow() {
 
   // 別タブでウィンドウが開かれた際にフック
   mainWindow.webContents.setWindowOpenHandler(({ url }) => {
+    const cursorPoint = screen.getCursorScreenPoint();
+    const activeDisplay = screen.getDisplayNearestPoint(cursorPoint);
+
     const subWindow = new BrowserWindow({
       title: "McGwire",
       width: 1200,
       height: 850,
+      x: activeDisplay.workArea.x + (activeDisplay.workArea.width - 1200) / 2,
+      y: activeDisplay.workArea.y + (activeDisplay.workArea.height - 850) / 2,
     });
     subWindow.setMenuBarVisibility(false);
     subWindow.loadURL(url);
