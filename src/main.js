@@ -2,7 +2,7 @@ const path = require("path");
 const fs = require("fs");
 const os = require("os");
 const electron = require("electron");
-const { BrowserWindow, ipcMain, dialog, clipboard, screen } = electron;
+const { BrowserWindow, ipcMain, dialog, clipboard, screen, Menu } = electron;
 const iconv = require("iconv-lite");
 const htmlTemplate = require("./js/htmlTemplate");
 const appLang = require("./js/mainLang");
@@ -38,6 +38,20 @@ function createWindow() {
   const cursorPoint = screen.getCursorScreenPoint();
   // カーソルがあるディスプレイの情報を取得
   const activeDisplay = screen.getDisplayNearestPoint(cursorPoint);
+  
+  // メニューのテンプレート配列
+  const menuTemplate = [
+    { role: "copy" },
+    { role: "cut" },
+    { role: "paste"},
+    { type: "separator" },
+    { label: "DevTools", click: () => mainWindow?.webContents.openDevTools() },
+  ];
+  
+  // macOSで必要な設定
+  if (process.platform === "darwin") menuTemplate.unshift({ role: "appMenu" });
+  
+  const menu = Menu.buildFromTemplate(menuTemplate);
 
   mainWindow = new BrowserWindow({
     minWidth: dimensions.width / 1.2,
@@ -56,6 +70,9 @@ function createWindow() {
   mainWindow.setMenuBarVisibility(false);
   mainWindow.maximize();
   mainWindow.show();
+
+  // コンテキストメニューのセット
+  Menu.setApplicationMenu(menu);
 
   // 開発環境での起動時にDevToolsを開く
   if (!app.isPackaged) {
@@ -81,6 +98,13 @@ function createWindow() {
   mainWindow.on("closed", () => {
     mainWindow = null;
     app.quit();
+  });
+  
+  // 右クリックを使えるようにフック
+  mainWindow.webContents.on("context-menu", () => {
+    if (mainWindow) {
+      menu.popup();
+    }
   });
 
   // 別タブでウィンドウが開かれた際にフック
