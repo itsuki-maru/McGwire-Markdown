@@ -1,5 +1,12 @@
 # Release Notes
 
+## Version 1.7.4
+
+- 右クリックコンテキストメニューの追加
+    - Copy
+    - Cut
+    - Paste
+
 ## Version 1.7.3
 
 - マルチディスプレイ環境下でElectronウィンドウを開く場所をコントロール
