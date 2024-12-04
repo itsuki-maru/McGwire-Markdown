@@ -13,13 +13,21 @@ let mainWindow;
 // PDF・HTML出力のウィンドウ（非表示起動）の数を管理するリスト
 let printPDFWindowsList = [];
 
+// 設定ファイルの格納ディレクトリ
+const appSettingDir = path.join(os.homedir(), ".mcgwire-markdown");
+
+if (!fs.existsSync(appSettingDir)) {
+  console.info("INIT CREATE DIRECTORY: '~/.mcgwire-markdown'");
+  fs.mkdirSync(appSettingDir);
+}
+
 // McGwireの設定ファイルのパスを定義
-const settingPath = path.join(os.homedir(), "mcgwire-settings.json");
+const settingPath = path.join(appSettingDir, "mcgwire-settings.json");
 
 // McGwireの言語設定を読み込み
 let applicationLang = "ja";
 const defaultCssPath = path.join(app.getAppPath(), "./src/css/mcgwire_default_style.css");
-let cssFilePath = path.join(os.homedir(), "mcgwire_default_style.css");
+let cssFilePath = path.join(appSettingDir, "mcgwire_default_style.css");
 
 async function appInit() {
   const settingInit = await loadSettings();
@@ -141,23 +149,6 @@ app.on("activate", () => {
     createWindow();
   }
 });
-
-
-// 2つ以上アプリが起動しないように制御
-const gotTheLock = app.requestSingleInstanceLock();
-if (!gotTheLock) {
-  app.quit();
-} else {
-  app.on("second-instance", (event, commandLine, workingDirectory) => {
-    // 二つ目のインスタンスが起動されたとき、メインウィンドウにフォーカス
-    if (mainWindow) {
-      if (mainWindow.isMinimized()) mainWindow.restore()
-      mainWindow.focus()
-      if (commandLine.length >= 2) {
-      }
-    }
-  })
-}
 
 // アプリに関連付けられたファイルからの起動処理
 app.on("will-finish-launching", () => {
