@@ -1,5 +1,6 @@
 import { lang } from "./js/rendererLang.js";
 import { initTour } from "./js/guide.js";
+import { videoToken, detailsToken, noteToken, warningToken } from "./js/markedSetup.js";
 
 
 // メインプロセスからCSSファイルのパスを受け取り反映
@@ -68,18 +69,19 @@ renderer.link = (href, title, text) => {
   return html.replace(/^<a /, '<a target="_blank" rel="noopener noreferrer" title="外部リンク" ');
 };
 
-// markedの設定をカスタマイズ
-marked.setOptions({
-  renderer,
-});
-
 // markedの設定
 marked.use(
   {
       mangle: false,
-      headerIds: false
+      headerIds: false,
+      extensions: [videoToken, detailsToken, noteToken, warningToken],
   }
 );
+
+// markedの設定をカスタマイズ
+marked.setOptions({
+  renderer,
+});
 
 const footerArea = document.querySelector(".footer");
 let lastSaveTextData = "";
@@ -249,7 +251,7 @@ document.querySelector("#btnCopyClipBoard13").addEventListener("click", () => {
   insertClipBoard(text);
 });
 document.querySelector("#btnCopyClipBoard14").addEventListener("click", () => {
-  const text = "<details><summary>ラベル</summary>\n\n" + "(上に空行を入れる)\n" + "内容を記述\n" + "</details>\n"
+  const text = ":::details タイトル\n\n" + "内容を記述\n\n" + ":::"
   copyClipBoard(text);
   insertClipBoard(text);
 });

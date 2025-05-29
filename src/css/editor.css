@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 95%;
   margin: 1%;
   padding: 0;
@@ -30,9 +31,12 @@ html.dark-theme {
 
 .header {
   display: flex;
-  justify-content: space-between; /* 左右の項目を端に配置 */
-  width: 90%; /* textareaと同じ幅に設定 */
-  margin: 0 auto; /* 中央揃えにする */
+  justify-content: space-between;
+  /* 左右の項目を端に配置 */
+  width: 90%;
+  /* textareaと同じ幅に設定 */
+  margin: 0 auto;
+  /* 中央揃えにする */
 }
 
 .app-title {
@@ -81,7 +85,8 @@ html.dark-theme {
   color: white;
 }
 
-.editor-area, .preview-area {
+.editor-area,
+.preview-area {
   width: 49%;
   height: 100%;
   overflow: hidden;
@@ -225,6 +230,7 @@ body {
   font-size: 34px;
   border-bottom: solid 3px #d7d7d7;
 }
+
 .head2 {
   font-size: 24px;
   color: black;
@@ -236,8 +242,55 @@ body {
 }
 
 .mermaid .error-icon {
-  display: none; /* アイコンを非表示にする */
+  display: none;
+  /* アイコンを非表示にする */
 }
+
 .mermaid .error-text {
   display: none;
+}
+
+summary {
+  list-style: none;
+  /* デフォルトの矢印を非表示 */
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+  /* ChromeなどWebkit系ブラウザ対応 */
+}
+
+details>summary {
+  position: relative;
+  padding-left: 1.5em;
+}
+
+details>summary::before {
+  content: "▶";
+  /* 未展開時のアイコン */
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: rotate(0deg);
+  transition: transform 0.2s ease;
+}
+
+details[open]>summary::before {
+  transform: rotate(90deg);
+  /* 展開時に90度矢印を下に変更 */
+}
+
+.box.note {
+  border-left: 4px solid #4caf50;
+  background: #e8f5e9;
+  padding: 0.5em;
+  margin: 1em 0;
+}
+
+.box.warning {
+  border-left: 4px solid #f44336;
+  background: #ffebee;
+  padding: 0.5em;
+  margin: 1em 0;
 }
