@@ -513,9 +513,19 @@ details[open]>summary::before {
   margin: 1em 0;
 }
 
+.box.note summary {
+  font-size: large;
+  border-bottom: 1px solid #cccccc;
+}
+
 .box.warning {
   border-left: 4px solid #f44336;
   background: #ffebee;
   padding: 0.5em;
   margin: 1em 0;
+}
+
+.box.warning summary {
+  font-size: large;
+  border-bottom: 1px solid #cccccc;
 }
