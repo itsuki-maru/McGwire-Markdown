@@ -36,20 +36,37 @@ editor.commands.addCommand(
 
 // markedのスラッグ化機能をカスタマイズ
 const renderer = new marked.Renderer();
-renderer.heading = (text, level, raw) => {
-  return `<h${level} class="head${level}">${text}</h${level}>\n`;
+renderer.heading = (tokens) => {
+  return `<h${tokens.depth} class="head${tokens.depth}">${tokens.text}</h${tokens.depth}>\n`;
 };
 
 // mermaidの処理
 const originalCodeRenderer = renderer.code.bind(renderer);
-renderer.code = (code, language) => {
-  let html = originalCodeRenderer(code, language, false);
-  if (language == "mermaid") {
-    return '<pre class="mermaid">' + escapeHtml(code) + '\n</pre>';
+renderer.code = (tokens) => {
+  let _html = originalCodeRenderer(tokens);
+  if (tokens.lang === "mermaid") {
+    return '<pre class="mermaid">' + escapeHtml(tokens.text) + '\n</pre>';
   } else {
-    return originalCodeRenderer(code, language, false);
+    return originalCodeRenderer(tokens);
   }
-}
+};
+
+// 画像の横幅を指定できるようにimgタグをカスタム
+const originalImageRenderer = renderer.image.bind(renderer);
+renderer.image = (tokens) => {
+  let _html = originalImageRenderer(tokens);
+  let width = "";
+  let href = tokens.href;
+  let text = tokens.text;
+  const match = tokens.href.match(/\s*=(\d+)(x)?$/);
+  if (match) {
+    width = match[1];
+    href  = href.replace(/\s*=.*$/, "");
+  }
+  const widthAttr = width ? ` width="${width}px"` : "";
+  return `<img src="${href}" alt="${text}" ${widthAttr}>`;
+};
+
 // HTMLエスケープ関数
 function escapeHtml(html) {
   return html
@@ -107,7 +124,7 @@ editor.getSession().on("changeScrollTop", function() {
     setTimeout(() => isEditorScrolling = false, 50);
 });
 
-/** キー入力の検知しマークダウンをHTMLに変換する関数 */
+// キー入力の検知しマークダウンをHTMLに変換する関数
 function handleChange(event) {
     const inputText = editor.getValue();
     if (lastSaveTextData !== inputText) {
@@ -139,7 +156,7 @@ async function drawMermaid() {
 
 window.addEventListener("keydown", handleKeyDown);
 
-/** エディターとプレビュー部分の高さの自動調整 */
+// エディターとプレビュー部分の高さの自動調整
 window.onload = function() {
   function setElementHeight() {
     let viewportHeight = window.innerHeight;
@@ -158,7 +175,7 @@ window.onload = function() {
 };
 
 
-/** ボタンイベント */
+// ボタンイベント
 // OPEN BUTTON
 document.querySelector("#btnOpen").addEventListener("click", () => {
   openFile();
@@ -263,7 +280,7 @@ document.querySelector("#btnCopyClipBoard16").addEventListener("click", () => {
 });
 
 
-/** OPEN FILE */
+// OPEN FILE
 async function openFile() {
   const result = await window.myApp.openFile();
 
@@ -278,7 +295,7 @@ async function openFile() {
   }
 };
 
-/** SAVE FILE */
+// SAVE FILE
 async function saveFile() {
   const result = await window.myApp.saveFile(currentPath, editor.getValue());
   footerArea.textContent = footerArea.textContent.replace(/\*/g, "");
@@ -288,7 +305,7 @@ async function saveFile() {
   }
 };
 
-/** OUTPUT PDF */
+// OUTPUT PDF
 async function openPreviewWindow() {
   const inputText = editor.getValue();
   const html = marked.parse(inputText);
@@ -296,7 +313,7 @@ async function openPreviewWindow() {
   console.log(result);
 };
 
-/** PRINT OUT */
+// PRINT OUT
 async function printOut() {
   const inputText = editor.getValue();
   const html = marked.parse(inputText);
@@ -304,32 +321,32 @@ async function printOut() {
   console.log(result);
 };
 
-/** HOW TO */
+// HOW TO
 async function howTo() {
   const result = await window.myApp.howTo();
   console.log(result);
 };
 
-/** COPY CLIPBOARD */
+// COPY CLIPBOARD
 async function copyClipBoard(text) {
   const result = await window.myApp.copyClipBoard(text);
   console.log(result);
 };
 
-/** INSERT CLIPBORD */
+// INSERT CLIPBORD
 async function insertClipBoard(text) {
   const corsorPosition = editor.getCursorPosition();
   editor.session.insert(corsorPosition, text);
   editor.focus();
 };
 
-/** HOW TO */
+// HOW TO
 async function ossLicensesTo() {
   const result = await window.myApp.ossLicensesTo();
   console.log(result);
 };
 
-/** GET PICTURE PATH */
+// GET PICTURE PATH
 async function getPictureFilePath() {
   const result = await window.myApp.getPictureFilePath();
   let text = ""
@@ -344,7 +361,7 @@ async function getPictureFilePath() {
   insertClipBoard(text);
 };
 
-/** CSV TO MARKDOWN TEXT */
+// CSV TO MARKDOWN TEXT
 async function csvToMarkdownTable() {
   const text = await window.myApp.csvToMarkdownTable();
   if (text) {
@@ -353,13 +370,13 @@ async function csvToMarkdownTable() {
   }
 };
 
-/** SAVE THEME SETTINGS */
+// SAVE THEME SETTINGS
 async function saveSettings(theme, language) {
   const result = await window.myApp.saveSettings(theme, language);
   console.log(result);
 };
 
-/** LOAD THEME & LANGUAGE SETTINGS */
+// LOAD THEME & LANGUAGE SETTINGS
 let currentThemeIndex = 0;
 const themes = ["light-theme", "dark-theme"];
 let currentLangIndex = 0;
@@ -408,7 +425,7 @@ async function loadSettings() {
 loadSettings();
 
 
-/** FILE DROP */
+// FILE DROP
 document.addEventListener("dragover", (event) => {
   event.preventDefault();
 });
@@ -548,7 +565,7 @@ document.querySelector("#langButton").addEventListener("click", () => {
   saveSettings("", langs[currentLangIndex]);
 });
 
-/** アプリケーションガイドの開始 */
+// アプリケーションガイドの開始
 document.getElementById("btnAppGuide").addEventListener("click", function () {
   let tour = initTour(langs[currentLangIndex]);
   tour.start();
@@ -578,7 +595,7 @@ function getParentPath(filePath) {
 }
 
 
-/** 
+/**
  * 相対パスで画像のレンダリングを行うためにMarked.jsのimageをオーバーライドする関数
  * マークダウンファイルが存在するディレクトリを起点にする。
  *  @param {string} fileParentPath

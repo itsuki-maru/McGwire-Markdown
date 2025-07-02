@@ -24,92 +24,64 @@ export const videoToken = {
     }
 }
 
-// カスタムトークン"details"の定義（型は緩くanyとする）
-export const detailsToken = {
-    name: "details",
-    level: "block", // ブロック要素として取り扱い
-    start(src) {
-        return src.match(/^:::details\s/m)?.index;
-    },
-    tokenizer(src, tokens) {
-        if (!src.startsWith(":::details")) return null;
-        // src の先頭に :::details がある場合のみ処理
-        const rule = /^:::details\s+(.+?)\r?\n([\s\S]*?)^\s*:::\s*$/m;
-        const match = src.match(rule);
-        if (match) {
-            const raw = match[0];
-            const title = match[1].trim();
-            const content = match[2].replace(/\r\n/g, "\n"); // 改行正規化
-            return {
-                type: "details", // カスタムトークンタイプ
-                raw,
-                title,
-                tokens: this.lexer.blockTokens(content),
-            };
-        }
-    },
-    renderer(token) {
-        const body = marked.parser(token.tokens);
-        return `<details>\n<summary>${token.title}</summary>\n${body}\n</details>\n`;
-    }
-};
+// ネスト対応トークナイザの共通関数
+function createNestedTokenizer(typeName) {
+    return {
+        name: typeName,
+        level: "block",
+        start(src) {
+            const re = new RegExp(`^:::${typeName}\\s`, "m");
+            return src.match(re)?.index;
+        },
+        tokenizer(src, tokens) {
+            if (!src.startsWith(`:::${typeName}`)) return null;
 
-// カスタムトークン"note"の定義（型は緩くanyとする）
-export const noteToken = {
-    name: "note",
-    level: "block", // ブロック要素として取り扱い
-    start(src) {
-        return src.match(/^:::note\s/m)?.index;
-    },
-    tokenizer(src, tokens) {
-        if (!src.startsWith(":::note")) return null;
-        // src の先頭に :::note がある場合のみ処理
-        const rule = /^:::note\s+(.+?)\r?\n([\s\S]*?)^\s*:::\s*$/m;
-        const match = src.match(rule);
-        if (match) {
-            const raw = match[0];
-            const title = match[1].trim();
-            const content = match[2].replace(/\r\n/g, "\n"); // 改行正規化
-            return {
-                type: "note", // カスタムトークンタイプ
-                raw,
-                title,
-                tokens: this.lexer.blockTokens(content),
-            };
-        }
-    },
-    renderer(token) {
-        const body = marked.parser(token.tokens);
-        return `<div class="box ${token.type}">\n<summary>${token.title}</summary>\n${body}\n</div>\n`;
-    }
-};
+            const lines = src.split(/\r?\n/);
+            let nestLevel = 0;
+            let endIndex = -1;
 
-// カスタムトークン"warning"の定義（型は緩くanyとする）
-export const warningToken = {
-    name: "warning",
-    level: "block", // ブロック要素として取り扱い
-    start(src) {
-        return src.match(/^:::warning\s/m)?.index;
-    },
-    tokenizer(src, tokens) {
-        if (!src.startsWith(":::warning")) return null;
-        // src の先頭に :::warning がある場合のみ処理
-        const rule = /^:::warning\s+(.+?)\r?\n([\s\S]*?)^\s*:::\s*$/m;
-        const match = src.match(rule);
-        if (match) {
-            const raw = match[0];
-            const title = match[1].trim();
-            const content = match[2].replace(/\r\n/g, "\n"); // 改行正規化
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                if (/^:::(\w+)/.test(line)) {
+                    nestLevel++;
+                } else if (/^:::\s*$/.test(line)) {
+                    nestLevel--;
+                    if (nestLevel === 0) {
+                        endIndex = i;
+                        break;
+                    }
+                }
+            }
+
+            if (endIndex === -1) return null;
+
+            const rawLines = lines.slice(0, endIndex + 1);
+            const raw = rawLines.join("\n");
+
+            const titleMatch = lines[0].match(new RegExp(`^:::${typeName}\\s+(.+)`));
+            const title = titleMatch ? titleMatch[1].trim() : typeName.toUpperCase();
+
+            const content = lines.slice(1, endIndex).join("\n");
+
             return {
-                type: "warning", // カスタムトークンタイプ
+                type: typeName,
                 raw,
                 title,
                 tokens: this.lexer.blockTokens(content),
             };
-        }
-    },
-    renderer(token) {
-        const body = marked.parser(token.tokens);
-        return `<div class="box ${token.type}">\n<summary>${token.title}</summary>\n${body}\n</div>\n`;
-    }
-};
+        },
+        renderer(token) {
+            const body = marked.parser(token.tokens);
+            if (token.type === "details") {
+                return `<details>\n<summary>${token.title}</summary>\n${body}\n</details>\n`;
+            } else {
+                return `<div class="box ${token.type}">\n<summary>${token.title}</summary>\n${body}\n</div>\n`;
+            }
+        },
+    };
+}
+
+// それぞれのトークンを生成
+export const detailsToken = createNestedTokenizer("details");
+export const noteToken = createNestedTokenizer("note");
+export const warningToken = createNestedTokenizer("warning");
