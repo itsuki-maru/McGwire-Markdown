@@ -1,5 +1,12 @@
 # Release Notes
 
+## Version 1.8.2
+
+- details、note、warningタグの処理を共通化
+- note、warningタグのスタイルを調整
+- 画像のリサイズ機能を追加
+- 依存関係を更新
+
 ## Version 1.8.1
 
 - detailsタグを生成するカスタムトークンレンダラーを定義。展開可能なコンテンツをマークダウンで記述可能。
